@@ -1,0 +1,259 @@
+[Ttulo1] BAI01 — Gestionar los Programas
+[Ttulo2] Justificación de activación
+La dolencia J del Factor de Diseño 4 (cambios o proyectos de TI que no cumplen las necesidades del negocio y se entregan tarde o con sobrecosto) fue valorada como Serious Issue (3) en el diagnóstico de DHM (UNI, 2026, Cap. 7). El Toolkit de COBIT 2019 asigna a BAI01 una importancia relativa de +10 (ISACA, 2018c; UNI, 2026, Cap. 8). La causa directa es la brecha B1: no existe plan de proyecto formal con alcance, estimaciones ni cronograma, y los indicadores de precisión de planificación y de desviación de cronograma figuran como «No medido» (UNI, 2026, Fase 1). El programa de mejora CMMI v3.0 Nivel 2, con diez brechas bajo supervisión del CDC (Acta 001-2026-CDC), requiere coordinar proyectos, responsables y beneficios esperados. El propósito oficial de BAI01 es obtener el valor de negocio deseado y reducir el riesgo de retrasos, costos y erosión de valor inesperados (ISACA, 2018b, BAI01). Con un equipo de 38 empleados y una debilidad reconocida en experiencia previa con CMMI (D2), activar BAI01 en Nivel 2 (Gestionado) es proporcionado y alcanzable.
+[Ttulo2] Componente 1 — Procesos
+[Ttulo3] ¿Cuáles son los impulsores?
+La dolencia J (proyectos de TI que no satisfacen al negocio, con retrasos o sobrecostos) se valoró como Serious Issue (3) (UNI, 2026, Cap. 7). El programa de mejora CMMI v3.0 Nivel 2 —diez brechas supervisadas por el CDC— exige coordinar proyectos con alcance, cronograma y beneficios definidos; sin BAI01 no puede confirmarse el valor esperado ni controlarse el riesgo de retraso (ISACA, 2018b, BAI01; ISACA, 2018d, Fase 1).
+[Ttulo3] ¿Dónde estamos ahora?
+Nivel 1 (Realizado): el trabajo se ejecuta, pero la brecha B1 confirma que no existe plan de proyecto formal con alcance, estimaciones ni cronograma. Precisión de planificación y desviación de cronograma figuran como «No medido» en la línea base (UNI, 2026, Fase 1). El CDC existe desde el 20/03/2026, aunque sin un enfoque estándar de gestión de programas documentado (UNI, 2026, Anexo B; ISACA, 2018d, Fase 2).
+[Ttulo3] ¿Dónde queremos estar?
+Nivel 2 (Gestionado) como techo: enfoque estándar mantenido y aplicado (BAI01.01), programa iniciado con patrocinio y gestor dedicado (BAI01.02) y plan del programa con financiación, costos, cronograma e interdependencias entre proyectos (BAI01.04). Metas de línea base: precisión de planificación con desviación ≤20 % y desviación de cronograma ≤10 % (UNI, 2026, Fase 1; ISACA, 2018b, BAI01; ISACA, 2018d, Fase 3).
+[Ttulo3] ¿Qué se necesita hacer?
+Documentar el enfoque estándar en Confluence, formalizar el patrocinio del Gerente General, designar por escrito al Líder Técnico como gestor del programa y elaborar en Jira el plan del programa con los hitos de los proyectos de cierre de brechas. Las demás prácticas (BAI01.03 y BAI01.05 a BAI01.09) se ejecutan solo en forma mínima gestionada, porque sus actividades oficiales inician en capacidad 3 (ISACA, 2018b, BAI01; ISACA, 2018d, Fase 4).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico redacta el enfoque y las plantillas (mandato, plan, seguimiento) con apoyo de la Ing. Marcela Rivas; el CDC los revisa en sus reuniones quincenales de las primeras ocho semanas y los aprueba en acta firmada digitalmente. Jira aloja el plan y el tablero de brechas, y Power BI presenta el avance ante el CDC (UNI, 2026, Anexo B; ISACA, 2018d, Fase 5).
+[Ttulo3] ¿Llegamos?
+Se verifica que exista un enfoque estándar aprobado, un mandato de programa firmado, un plan del programa vigente en Jira y evidencia de su uso en el CDC. Se emplean las métricas oficiales de porcentaje de programas exitosos conforme al enfoque definido y de programas emprendidos sin caso de negocio aprobado; la Responsable PQA audita estos artefactos (ISACA, 2018b, BAI01.01, BAI01.02; ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+Tras las ocho primeras semanas quincenales, el CDC pasa a sesiones mensuales (primer martes de cada mes) y mantiene el seguimiento del plan y de los KPI en Power BI. Los cambios al enfoque estándar se aprueban por mayoría simple de los miembros con voto, y la consultora externa acompaña hasta que la práctica se estabilice (UNI, 2026, Anexo B; ISACA, 2018d, Fase 7).
+[Ttulo2] Componente 2 — Estructuras Organizativas
+[Ttulo3] ¿Cuáles son los impulsores?
+Sin un órgano que decida sobre el programa, los proyectos avanzan sin patrocinio ni rendición de cuentas (dolencia J). ISACA prevé un comité estratégico de programas y un gestor de programas dedicado. DHM cuenta con el CDC, pero su acta lo orienta a supervisar la mejora CMMI (ISACA, 2018b, BAI01.02; UNI, 2026, Anexo B).
+[Ttulo3] ¿Dónde estamos ahora?
+El CDC quedó constituido el 20/03/2026 con cinco miembros con voto y una consultora con voz sin voto (Acta 001-2026-CDC). No existe designación formal de gestor de programa ni oficina de proyectos; Luis Antonio Ramírez actúa como líder técnico y coordinador CMMI (UNI, 2026, Anexo B; ISACA, 2018d, Fase 2).
+[Ttulo3] ¿Dónde queremos estar?
+El CDC actúa como comité estratégico del programa, presidido por Carlos Méndez López; Luis Antonio Ramírez es gestor del programa; Roberto José Gutiérrez y José Francisco Pérez representan a los dueños del proceso de negocio; Ana María Sandoval asegura la calidad. La oficina de proyectos (PMO) es actividad de capacidad 3 y no se crea (ISACA, 2018b, BAI01.01, BAI01.02).
+[Ttulo3] ¿Qué se necesita hacer?
+Ampliar las competencias del CDC en su reglamento interno para incluir decisiones de programa (aprobar mandato, plan y cambios), nombrar formalmente al gestor del programa y fijar la matriz RACI de BAI01. Las modificaciones requieren mayoría simple de los miembros con voto (UNI, 2026, Anexo B; ISACA, 2018b, BAI01.02; ISACA, 2018d, Fase 4).
+[Ttulo3] ¿Cómo llegamos allí?
+El reglamento modificado se aprueba en reunión del CDC, con acta firmada digitalmente, y la matriz RACI se publica en Confluence. Se socializa con jefes de área y conductores dentro de la comunicación de la visión de la Fase 2, para reducir la resistencia al cambio (D4) (UNI, 2026, Fase 2; ISACA, 2018d, Fase 5).
+[Ttulo3] ¿Llegamos?
+Se comprueba que existan el acta de designación del gestor, el reglamento actualizado y la matriz RACI publicada, y que cada práctica de Nivel 2 tenga un único responsable último. La evidencia son las actas del CDC firmadas y su registro de asistencia (UNI, 2026, Anexo B; ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+El CDC se reúne mensualmente (primer martes de cada mes) después de las ocho semanas quincenales y revisa la matriz RACI cuando cambie el personal clave. Cada rol crítico mantiene un suplente, según el cruzamiento de funciones del Anexo G (UNI, 2026, Anexo B, Anexo G; ISACA, 2018d, Fase 7).
+Matriz RACI de BAI01 para DHM
+<<TABLE>>
+| Práctica | Gerente General (C. Méndez) | Líder Técnico (L. Ramírez) | Resp. PQA (A. Sandoval) | Jefe de Ventas (R. Gutiérrez) | Rep. Logística (J. Pérez) | Consultora (M. Rivas) |
+| BAI01.01 Mantener un enfoque estándar en la gestión de programas | A | R | R | I | I | C |
+| BAI01.02 Iniciar un programa | A | R | C | C | C | C |
+| BAI01.03 Gestionar el compromiso de las partes interesadas | C | A/R | I | R | R | C |
+| BAI01.04 Desarrollar y mantener el plan del programa | A | R | C | C | C | C |
+| BAI01.05 Lanzar y ejecutar el programa | C | A/R | C | R | R | C |
+| BAI01.06 Monitorizar, controlar y reportar sobre los resultados del programa | C | A/R | R | I | I | C |
+| BAI01.07 Gestionar la calidad del programa | I | R | A/R | C | C | C |
+| BAI01.08 Gestionar el riesgo del programa | C | A/R | R | C | C | C |
+| BAI01.09 Cerrar un programa | A | R | C | C | C | C |
+<<END TABLE>>
+Matriz RACI adaptada a DHM a partir de las estructuras organizativas de ISACA (2018b, BAI01, componente B): Comité Estratégico (Programas/Proyectos) = CDC; Gestor de programas = Líder Técnico; Dueños del proceso de negocio = Jefe de Ventas y Representante de Logística; Director general ejecutivo = Gerente General. R = Responsable; A = Rinde cuentas; C = Consultado; I = Informado. Las prácticas BAI01.03 y BAI01.05 a BAI01.09 se asignan para su ejecución mínima gestionada.
+[Ttulo2] Componente 3 — Políticas y Procedimientos
+[Ttulo3] ¿Cuáles son los impulsores?
+Sin lineamientos escritos, la gestión de programas depende de acuerdos verbales y del criterio individual. ISACA identifica una política de gestión de programas y proyectos que fija la postura de la dirección, la rendición de cuentas, el presupuesto, el análisis de riesgos y el reporte (ISACA, 2018b, BAI01, componente E; PMI, 2017).
+[Ttulo3] ¿Dónde estamos ahora?
+DHM cuenta con la Política de Gestión de Configuración y Control de Cambios (Política 001-CM-2026, vigente desde el 1 de abril de 2026), pero no con una política ni un procedimiento de gestión de programas: inicio, planificación, seguimiento y reporte se realizan sin documento rector (UNI, 2026, Anexo F; Fase 1).
+[Ttulo3] ¿Dónde queremos estar?
+Política de gestión de programas y proyectos aprobada por el CDC, con procedimientos breves de inicio y de planificación del programa, articulada con la política de cambios del Anexo F. Contenido mínimo de Nivel 2: patrocinio, gestor, alcance, financiación, costos, cronograma e interdependencias (ISACA, 2018b, BAI01.01, BAI01.02, BAI01.04).
+[Ttulo3] ¿Qué se necesita hacer?
+Redactar la política, el procedimiento de inicio (mandato del programa) y el de planificación (plan del programa) mediante plantillas en Confluence, y definir cuándo un cambio de alcance o cronograma exige aprobación del CDC, tomando como modelo el flujo por issue en Jira del Anexo F (UNI, 2026, Anexo F; ISACA, 2018d, Fase 4).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico elabora el borrador, la Responsable PQA lo revisa y la Ing. Marcela Rivas asesora; el CDC lo aprueba y se publica en Confluence. La comunicación alcanza a jefes de área y conductores para asegurar su conocimiento (UNI, 2026, Fase 3; ISACA, 2018d, Fase 5).
+[Ttulo3] ¿Llegamos?
+Se verifica que la política esté aprobada y publicada, que el mandato y el plan del programa se hayan elaborado con sus plantillas y que las auditorías de proceso de la Responsable PQA no detecten desvíos relevantes (UNI, 2026, Fase 1; ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+El CDC revisa la política cuando cambie la estructura del programa o el alcance de CMMI. Toda modificación se aprueba por mayoría simple de los miembros con voto y se comunica en la reunión siguiente (UNI, 2026, Anexo B; ISACA, 2018d, Fase 7).
+Tabla de políticas y procedimientos
+<<TABLE>>
+| Política / procedimiento | Contenido mínimo (Nivel 2) | Responsable | Estado y fuente |
+| Política de gestión de programas y proyectos | Postura de la dirección, rendición de cuentas, metas de rendimiento, presupuesto, análisis de riesgos y reporte durante la ejecución. | Elabora: Líder Técnico. Aprueba: CDC. | Por redactar (ISACA, 2018b, BAI01; PMI, 2017) |
+| Procedimiento de inicio del programa | Patrocinio, comité del programa, designación del gestor y mandato del programa. | Elabora: Líder Técnico. Aprueba: Gerente General. | Por redactar (ISACA, 2018b, BAI01.02) |
+| Procedimiento de planificación del programa | Financiación, costo, cronograma e interdependencias de los proyectos; plantilla de plan en Confluence. | Elabora: Líder Técnico. Revisa: Resp. PQA. | Por redactar (ISACA, 2018b, BAI01.04) |
+| Política de Gestión de Configuración y Control de Cambios (001-CM-2026) | Cambios iniciados por issue en Jira con análisis de impacto y aprobación de un revisor distinto del autor. | Aprobada por Gerencia General y CDC. | Vigente desde 01/04/2026 (UNI, 2026, Anexo F) |
+<<END TABLE>>
+[Ttulo2] Componente 4 — Flujos de Información
+[Ttulo3] ¿Cuáles son los impulsores?
+Los reportes de avance se generan de forma dispersa y sin formato común, por lo que las decisiones sobre el programa carecen de insumos comparables. COBIT define entradas y salidas para cada práctica, como el mandato, el plan del programa y el registro de presupuesto y beneficios (ISACA, 2018b, BAI01, componente C; ISACA, 2018d, Fase 1).
+[Ttulo3] ¿Dónde estamos ahora?
+El Acta del CDC prevé un tablero de brechas en Jira y un dashboard de KPI en Power BI, pero no existen mandato, plan del programa ni registro de presupuesto y beneficios como artefactos formales; precisión de planificación y desviación de cronograma no se miden (UNI, 2026, Anexo B; Fase 1).
+[Ttulo3] ¿Dónde queremos estar?
+Flujos oficiales de Nivel 2: enfoque de gestión de programas (BAI01.01) como salida interna; mandato del programa (BAI01.02) hacia el portafolio; plan del programa, registro de presupuesto y beneficios, y requisitos de recursos y roles (BAI01.04) hacia presupuesto y recursos humanos (ISACA, 2018b, BAI01; ISACA, 2018d, Fase 3).
+[Ttulo3] ¿Qué se necesita hacer?
+Crear plantillas en Confluence para mandato, plan del programa y registro de presupuesto; definir quién recibe cada salida; y vincular en Jira el plan con el tablero de brechas. Los destinos oficiales (APO05, APO06 y APO07) se resuelven en DHM por decisión del CDC (ISACA, 2018b, BAI01; ISACA, 2018d, Fase 4).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico registra cada artefacto en Confluence y enlaza sus tareas en Jira; Power BI toma los datos de avance para el tablero del CDC. Los artefactos se circulan antes de cada reunión y se aprueban con firma digital (UNI, 2026, Anexo B; ISACA, 2018d, Fase 5).
+[Ttulo3] ¿Llegamos?
+Se comprueba que cada salida oficial de las tres prácticas de Nivel 2 exista, esté aprobada y tenga destinatario, y que el tablero de Power BI refleje el estado real del plan en Jira. La Responsable PQA registra los hallazgos (ISACA, 2018b, BAI01; ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+El Líder Técnico actualiza el plan (financiación, costos, cronograma e interdependencias) antes de cada sesión mensual del CDC, y la Responsable PQA revisa la vigencia de los artefactos y su trazabilidad en Confluence (UNI, 2026, Anexo B; ISACA, 2018d, Fase 7).
+Flujos de información de las prácticas de Nivel 2
+<<TABLE>>
+| Práctica | Entradas (origen) | Salidas (destino) | Destino en DHM |
+| BAI01.01 | Descripciones de la fase de implementación y Requisitos del gobierno de arquitectura (APO03.04); Portafolios actualizados de programas, servicios y activos (APO05.04); Riesgo identificado en las prestaciones de los proveedores (APO10.04); Requisitos de las revisiones por fases (EDM02.03); Acciones para mejorar la entrega de valor (EDM02.04) | Enfoques de gestión de actualización de programas (Interna) | CDC; Líder Técnico |
+| BAI01.02 | Requisitos de recursos y Descripciones de la fase de implementación (APO03.04); Caso de negocio del programa (APO05.02); Matriz de habilidades y competencias (APO07.03); Visión y metas comunes (BAI05.02) | Mandato y resumen del programa (APO05.02); Caso de negocio del concepto del programa (APO05.02); Plan de obtención de beneficios del programa (APO05.02, APO06.05) | CDC (aprobación); Gerente General |
+| BAI01.04 | Programas seleccionados con hitos de ROI (APO05.02); Matriz de habilidades y competencias (APO07.03); Inventario de recursos humanos (APO07.05); Equipo y roles, Plan de comunicación de la visión, Ganancias rápidas (BAI05.02, .03, .04); Plan de pruebas de aceptación aprobado (BAI07.03); Aceptación aprobada (BAI07.05) | Registro del presupuesto y los beneficios del programa (APO05.05, APO06.05); Requisitos de recursos y roles (APO07.05, APO07.06); Plan del programa (Interna) | Equipo de proyectos; CDC |
+<<END TABLE>>
+Fuente: (ISACA, 2018b, BAI01, componente C). Los códigos de origen y destino son los oficiales de COBIT; en Nivel 2 DHM elabora la parte de financiación, costos y cronograma de las salidas de BAI01.04.
+[Ttulo2] Componente 5 — Cultura, Ética y Comportamiento
+[Ttulo3] ¿Cuáles son los impulsores?
+Los proyectos que concluyen sin que se conozca su resultado (UNI, 2026, Cap. 7) y la resistencia cultural al cambio del personal de ventas y de los conductores (FODA D4) limitan la transparencia sobre el avance del programa (ISACA, 2018b, BAI01; ISACA, 2018d, Fase 1).
+[Ttulo3] ¿Dónde estamos ahora?
+Predomina la gestión verbal del trabajo: el personal de ventas y los conductores muestran resistencia al cambio (D4) y los resultados de los proyectos se comunican de manera informal (UNI, 2026, Fase 1; ISACA, 2018d, Fase 2).
+[Ttulo3] ¿Dónde queremos estar?
+Una organización que comprende y respalda el valor de gestionar programas, con transparencia sobre avances y desviaciones, y con visión central de las iniciativas de mejora en el CDC (ISACA, 2018b, BAI01, componente F; ISACA, 2018d, Fase 3).
+[Ttulo3] ¿Qué se necesita hacer?
+Explicar en lenguaje operativo para qué sirve el plan del programa, mostrar el avance de cada brecha en Power BI y asignar responsables visibles. El liderazgo del Gerente General es decisivo para vencer la resistencia (D4) (UNI, 2026, Fase 2; ISACA, 2018d, Fase 4).
+[Ttulo3] ¿Cómo llegamos allí?
+Sesiones breves con ventas y logística, comunicación regular del avance y participación de Roberto José Gutiérrez (ventas) y José Francisco Pérez (conductores) en el CDC, de modo que el cambio sea impulsado desde sus propios equipos (UNI, 2026, Anexo B; ISACA, 2018d, Fase 5).
+[Ttulo3] ¿Llegamos?
+Se evalúa con la asistencia y participación de los representantes del negocio en el CDC, la disponibilidad del avance para todo el personal y una encuesta breve sobre la comprensión de los objetivos del programa (UNI, 2026, Anexo B; ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+En cada reunión mensual del CDC se refuerzan los avances logrados, se reconoce a los equipos que cumplen hitos y se mantiene el tablero visible para toda la organización (UNI, 2026, Anexo B; ISACA, 2018d, Fase 7).
+[Ttulo2] Componente 6 — Personas, Habilidades y Competencias
+[Ttulo3] ¿Cuáles son los impulsores?
+La gestión de programas y de beneficios exige competencias específicas, que SFIA identifica como Gestión de programas (PGMG) y Gestión de beneficios (BENM). La debilidad D2 —equipo pequeño sin experiencia previa en CMMI— limita la disponibilidad de estas competencias (ISACA, 2018b, BAI01, componente D; UNI, 2026, Fase 1).
+[Ttulo3] ¿Dónde estamos ahora?
+El Anexo G registra conocimiento de CMMI 3 y de Jira 4 en el Líder Técnico, CMMI 2 y Jira 3 en la Responsable PQA, y conocimiento inicial (niveles 1 a 2) en los demás miembros del CDC. Los suplentes de tareas críticas figuran por completar (UNI, 2026, Anexo G; ISACA, 2018d, Fase 2).
+[Ttulo3] ¿Dónde queremos estar?
+Un Líder Técnico con competencias de gestión de programas y planificación, un Gerente General con criterio de patrocinador y comprensión de beneficios, y miembros del CDC capaces de interpretar los indicadores del programa. La meta es Nivel 2 y no exige certificaciones (ISACA, 2018b, BAI01; UNI, 2026, Anexo G).
+[Ttulo3] ¿Qué se necesita hacer?
+Cerrar las brechas del Anexo G con capacitación dirigida: liderazgo CMMI para el Presidente del CDC, curso de Jira y métricas para el Líder Técnico, y suplentes por cada tarea crítica de planificación y seguimiento (UNI, 2026, Anexo G, Fase 4; ISACA, 2018d, Fase 4).
+[Ttulo3] ¿Cómo llegamos allí?
+Ejecutar el plan del Anexo G: introducción a CMMI Nivel 2 (8 h) para todo el CDC, administración de Jira (4 h) para el Líder Técnico y la Responsable PQA, taller de liderazgo CMMI (8 h) para el Presidente y curso de MPM y PQA (16 h) para el Líder Técnico (UNI, 2026, Anexo G; ISACA, 2018d, Fase 5).
+[Ttulo3] ¿Llegamos?
+Se evalúa con la matriz de habilidades actualizada: asistencia a los cursos, aplicación práctica en el plan del programa en Jira y un suplente capacitado por tarea crítica. La Responsable PQA registra los resultados (UNI, 2026, Anexo G, Fase 4; ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+La matriz de habilidades se actualiza cuando cambien el personal o el alcance del programa; se mantiene el cruzamiento de funciones y se refuerza la formación con sesiones prácticas dentro del CDC mensual (UNI, 2026, Anexo G; ISACA, 2018d, Fase 7).
+Competencias requeridas (SFIA y e-CF)
+<<TABLE>>
+| Habilidad (ISACA) | Marco y código | Responsable en DHM | Uso en BAI01 (Nivel 2) |
+| Gestión de programas | SFIA V6 (2015): PGMG | Luis Antonio Ramírez (Líder Técnico) | BAI01.01, BAI01.02 y BAI01.04: enfoque estándar, gestión del programa y plan |
+| Gestión de beneficios | SFIA V6 (2015): BENM | Carlos Méndez López (Presidente del CDC), con Roberto José Gutiérrez | BAI01.02: patrocinio y comprensión de los beneficios esperados |
+| Gestión de proyectos y portafolio | e-CF (2016): E.2 | Luis Antonio Ramírez, con Ana María Sandoval como suplente en Jira | BAI01.04: cronograma e interdependencias de los proyectos |
+| Desarrollo de plan de negocio | e-CF (2016): A.3 | Carlos Méndez López y Roberto José Gutiérrez | BAI01.02: base del caso de negocio del programa |
+<<END TABLE>>
+Fuente: (ISACA, 2018b, BAI01, componente D; SFIA Foundation, 2015). Los responsables se asignan con los roles verificados del Anexo B y las brechas del Anexo G (UNI, 2026).
+[Ttulo2] Componente 7 — Servicios, Infraestructura y Aplicaciones
+[Ttulo3] ¿Cuáles son los impulsores?
+ISACA señala como componente una herramienta de gestión de programas que sustente plan, seguimiento y reporte. Sin ella, el cronograma y los hitos del programa CMMI no son trazables ni medibles (ISACA, 2018b, BAI01, componente G; UNI, 2026, Fase 1; ISACA, 2018d, Fase 1).
+[Ttulo3] ¿Dónde estamos ahora?
+Jira Software Cloud Premium (10 usuarios) y Power BI Pro (10 usuarios) están licenciados desde el 1 de abril de 2026; Confluence, GitLab y Docker forman parte del ecosistema del caso. No hay una herramienta de cronograma adicional licenciada (UNI, 2026, Anexo C; ISACA, 2018d, Fase 2).
+[Ttulo3] ¿Dónde queremos estar?
+Jira como herramienta del programa (épicas, tareas, estimaciones, cronograma e hitos), Confluence como repositorio de mandato, plan y actas, y Power BI como tablero ejecutivo del CDC, dentro del presupuesto ya contratado (UNI, 2026, Anexo C; ISACA, 2018b, BAI01; ISACA, 2018d, Fase 3).
+[Ttulo3] ¿Qué se necesita hacer?
+Configurar en Jira el proyecto del programa con una épica por brecha, estimación por story points y fechas de hito; crear en Confluence el espacio con plantillas; y conectar los indicadores de avance con el dashboard de Power BI (UNI, 2026, Fase 1, Fase 3; ISACA, 2018d, Fase 4).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico configura Jira y los tableros, con la Responsable PQA como respaldo; los talleres de Jira (4 h, 02/04/2026) y de Power BI (4 h, 05/04/2026) preparan al equipo. Los accesos se habilitan dentro de los diez puestos licenciados (UNI, 2026, Anexo C, Anexo G; ISACA, 2018d, Fase 5).
+[Ttulo3] ¿Llegamos?
+Se comprueba que el plan del programa exista en Jira con tareas estimadas y con responsable, que Confluence contenga los artefactos aprobados y que el dashboard se consulte en las sesiones del CDC (UNI, 2026, Anexo B; ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+Las licencias duran 12 meses desde el 1 de abril de 2026 y se renuevan automáticamente salvo aviso escrito con 30 días de antelación; el CDC revisa el uso de Jira y Power BI antes de esa fecha para sustentar la renovación (UNI, 2026, Anexo C; ISACA, 2018d, Fase 7).
+Herramientas de BAI01 para DHM
+<<TABLE>>
+| Herramienta | Propósito | Estado |
+| Jira Software Cloud Premium | Plan del programa: épicas, tareas, estimaciones, cronograma, hitos y tablero de brechas | Licenciada, 10 usuarios, USD 1,200 anuales (Anexo C) |
+| Confluence | Repositorio de mandato, plan, plantillas, política y actas del CDC | Herramienta de soporte del CDC (Anexo B); sin línea propia en el Anexo C |
+| Power BI Pro | Dashboard ejecutivo de avance y KPI del programa | Licenciada, 10 usuarios, USD 1,020 anuales (Anexo C) |
+| Precoro Enterprise | Gestión de adquisiciones y contratos con proveedores vinculados al programa | Licenciada, 5 usuarios, USD 1,800 anuales (Anexo C) |
+| GitLab | Versionado de entregables técnicos y de la documentación de políticas | Herramienta del caso (UNI, 2026, Fase 3) |
+<<END TABLE>>
+Fuente: (ISACA, 2018b, BAI01, componente G; UNI, 2026, Anexo C). El presupuesto total de licencias del Anexo C es de USD 5,520; BAI01 se apoya principalmente en Jira y Power BI (USD 2,220 anuales).
+[Ttulo2] Prácticas de gestión del objetivo — Nivel 2
+Se presentan las nueve prácticas oficiales de BAI01 (ISACA, 2018b, capítulo 4). Solo BAI01.01, BAI01.02 y BAI01.04 contienen actividades oficiales de capacidad 2; en ellas la tabla recoge esas actividades. BAI01.03 y BAI01.05 a BAI01.09 tienen actividades oficiales de capacidad 3 o superior: en DHM se ejecutan únicamente en forma mínima gestionada (planificada, con responsable y evidencia en Jira y Confluence), y el nivel oficial de sus actividades se declara sin adoptarlo como meta.
+Cobertura por nivel de capacidad de las nueve prácticas oficiales
+<<TABLE>>
+| Práctica | Capacidad de sus actividades oficiales | Tratamiento en DHM (techo Nivel 2) |
+| BAI01.01 | 2, 3 y 4 | Nivel 2: actividad de capacidad 2 |
+| BAI01.02 | 2 y 3 | Nivel 2: actividades de capacidad 2 |
+| BAI01.03 | 3 y 4 | Ejecución mínima gestionada |
+| BAI01.04 | 2 y 3 | Nivel 2: actividad de capacidad 2 |
+| BAI01.05 | 3 y 4 | Ejecución mínima gestionada |
+| BAI01.06 | 3 y 4 | Ejecución mínima gestionada |
+| BAI01.07 | 3 y 4 | Ejecución mínima gestionada |
+| BAI01.08 | 3 | Ejecución mínima gestionada |
+| BAI01.09 | 3, 4 y 5 | Ejecución mínima gestionada |
+<<END TABLE>>
+Fuente: (ISACA, 2018b, BAI01, componente A).
+[Ttulo3] BAI01.01 — Mantener un enfoque estándar en la gestión de programas
+Descripción oficial: Mantener un enfoque estándar de gestión de programas que permita la revisión por gobierno y gestión, la toma de decisiones y las actividades de entrega, con foco constante en el valor y en los objetivos de la empresa: requisitos, riesgo, costos, calendario y calidad.
+Nivel de capacidad en DHM: Nivel 2 (Gestionado).
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Mantener y hacer cumplir un enfoque estándar de gestión de programas, alineado con el entorno de DHM y con buenas prácticas, que cubra el ciclo de vida y las disciplinas: alcance, recursos, riesgo, costo, calidad, tiempo, comunicación, partes interesadas, adquisiciones, control de cambios, integración y beneficios. | APO03.04: Descripciones de la fase de implementación; Requisitos del gobierno de arquitectura. / APO05.04: Portafolios actualizados de programas, servicios y activos. / APO10.04: Riesgo identificado en las prestaciones de los proveedores. / EDM02.03: Requisitos de las revisiones por fases. / EDM02.04: Acciones para mejorar la entrega de valor. | Enfoques de gestión de actualización de programas (Interna). | a. Porcentaje de programas exitosos conforme a la estrategia estándar definida. / b. Porcentaje de partes interesadas satisfechas con la gestión de programas. | A: Gerente General. R: Líder Técnico y Responsable PQA. |
+<<END TABLE>>
+Narrativa: El enfoque estándar de DHM se concreta en un documento único en Confluence: ciclo de vida del programa, plantillas de mandato, plan y seguimiento, y criterios de aprobación por el CDC. Lo redacta el Líder Técnico y lo revisa la Responsable PQA. Cubre las disciplinas exigidas por ISACA en versión ligera y se apoya en las áreas de práctica CMMI ya priorizadas (planificación, estimación, monitoreo y riesgos). La Gerencia lo hace cumplir al exigir que ningún proyecto de cierre de brechas inicie sin usarlo. La PMO y la evaluación de lecciones aprendidas son actividades de capacidad 3 y 4, y no forman parte de la meta.
+Fuente: (ISACA, 2018b, BAI01.01)
+[Ttulo3] BAI01.02 — Iniciar un programa
+Descripción oficial: Iniciar un programa para confirmar los beneficios esperados y obtener autorización para proceder: acordar el patrocinio, confirmar el mandato mediante un caso de negocio conceptual aprobado y designar un equipo o comité de dirección que elabore el resumen, actualice el caso de negocio y desarrolle el plan de obtención de beneficios, con aprobación de los patrocinadores.
+Nivel de capacidad en DHM: Nivel 2 (Gestionado): acordar el patrocinio y nombrar un gestor dedicado.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Acordar el patrocinio del programa y nombrar el comité del programa (CDC) con miembros que tengan interés estratégico, responsabilidad en la decisión de inversión y capacidad de facilitar el cambio. | APO03.04: Requisitos de recursos; Descripciones de la fase de implementación. / APO05.02: Caso de negocio del programa. / BAI05.02: Visión y metas comunes. | Mandato y resumen del programa (APO05.02). | a. Porcentaje de iniciativas/proyectos de I&T promovidos por dueños del negocio. / d. Porcentaje de partes interesadas que aprueban la necesidad, alcance, resultado planeado y nivel de riesgo. | A: Gerente General. R: CDC. |
+| Nombrar a un gestor dedicado del programa, con las competencias y habilidades adecuadas para gestionarlo de forma eficaz y eficiente. | APO07.03: Matriz de habilidades y competencias. | Mandato y resumen del programa, con la designación del gestor (APO05.02). | b. Porcentaje de iniciativas estratégicas con rendición de cuentas asignada. / c. Porcentaje de programas emprendidos sin casos de negocio aprobados. | A: Gerente General. R: Líder Técnico (gestor designado). |
+<<END TABLE>>
+Narrativa: El patrocinio ya existe: la alta gerencia firmó la Carta de Patrocinio (Anexo A) y constituyó el CDC (Anexo B), que actúa como comité del programa. Falta designar por escrito al gestor dedicado: Luis Antonio Ramírez, quien reúne el mayor conocimiento de CMMI y Jira (Anexo G), con Ana María Sandoval como suplente para la configuración de Jira. La designación se aprueba en acta del CDC y se registra en el mandato del programa. El caso de negocio detallado y el plan de obtención de beneficios corresponden a capacidad 3 y quedan fuera del techo.
+Fuente: (ISACA, 2018b, BAI01.02)
+[Ttulo3] BAI01.03 — Gestionar el compromiso de las partes interesadas
+Descripción oficial: Gestionar el compromiso de las partes interesadas para asegurar un intercambio activo de información precisa, consistente y oportuna con todas las partes relevantes, lo que incluye planificar, identificar e involucrar a las partes interesadas y gestionar sus expectativas.
+Nivel de capacidad en DHM: Capacidad oficial 3 y 4; en DHM, ejecución mínima gestionada (no es meta).
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Identificar a las partes interesadas del programa (CDC, ventas, logística y conductores, proveedores, consultora) y registrar su canal y frecuencia de comunicación como base del plan de compromiso. | Sin entradas oficiales para esta práctica. | Plan para el compromiso de las partes interesadas (Interna). | a. Nivel de satisfacción de las partes interesadas con su compromiso. | A y R: Líder Técnico. R: Jefe de Ventas y Representante de Logística. |
+| Usar las sesiones del CDC y reuniones breves con ventas y logística como canales de comunicación, y recoger la retroalimentación sobre el programa. | Sin entradas oficiales para esta práctica. | Resultados de las evaluaciones de eficacia para el compromiso de las partes interesadas (Interna). | b. Porcentaje de partes interesadas involucradas de manera efectiva. | A: Líder Técnico. R: Jefe de Ventas y Representante de Logística. |
+<<END TABLE>>
+Narrativa: Las actividades oficiales de esta práctica inician en capacidad 3, por lo que en Nivel 2 DHM se limita a una versión mínima gestionada: registrar en Confluence quiénes son las partes interesadas del programa, qué necesitan saber y por qué canal, y usar las sesiones del CDC como vía principal de comunicación. José Francisco Pérez y Roberto José Gutiérrez trasladan la información a conductores y ventas, donde la resistencia al cambio (D4) es mayor. El análisis formal de intereses y los acuerdos sobre datos compartidos se dejan para una etapa posterior y no constituyen meta.
+Fuente: (ISACA, 2018b, BAI01.03)
+[Ttulo3] BAI01.04 — Desarrollar y mantener el plan del programa
+Descripción oficial: Formular el programa para sentar sus bases iniciales, formalizando el alcance del trabajo e identificando los entregables que satisfarán las metas y producirán valor; mantener y actualizar el plan del programa y el caso de negocio durante todo su ciclo de vida económico para asegurar la alineación con los objetivos estratégicos y reflejar el estado actual y lo aprendido.
+Nivel de capacidad en DHM: Nivel 2 (Gestionado): especificar financiación, costo, calendario e interdependencias.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Especificar la financiación, el costo, el calendario y las interdependencias de los múltiples proyectos del programa. | APO05.02: Programas seleccionados con hitos de ROI. / APO07.03: Matriz de habilidades y competencias. / APO07.05: Inventario de recursos humanos de la empresa y de TI. / BAI05.02: Equipo y roles para su implementación. / BAI05.03: Plan de comunicación de la visión. / BAI05.04: Ganancias rápidas identificadas. / BAI07.03: Plan de pruebas de aceptación aprobado. / BAI07.05: Aceptación aprobada y preparación para pasar a producción. | Registro del presupuesto y los beneficios del programa (APO05.05, APO06.05). Requisitos de recursos y roles (APO07.05, APO07.06). Plan del programa (Interna). | a. Frecuencia de revisiones de estado del programa que no satisfacen los criterios de valor. / b. Porcentaje de programas activos llevados a cabo sin mapas de valor del programa válidos y actualizados. | A: Gerente General. R: Líder Técnico. |
+<<END TABLE>>
+Narrativa: El Líder Técnico consolida en Jira el plan del programa: cada brecha identificada como épica, con hitos, estimación en story points, responsable, fecha y dependencias entre proyectos. La financiación se toma del Anexo C, que fija USD 5,520 en licencias, y el esfuerzo del equipo se estima para costear el programa. El CDC aprueba el plan y sus cambios, y el Gerente General rinde cuentas por su vigencia. La formalización del cambio empresarial completo y el mantenimiento del registro de beneficios durante toda la vida económica son actividades de capacidad 3 y no se exigen.
+Fuente: (ISACA, 2018b, BAI01.04)
+[Ttulo3] BAI01.05 — Lanzar y ejecutar el programa
+Descripción oficial: Poner en marcha el programa para adquirir y dirigir los recursos necesarios y lograr las metas y beneficios definidos en el plan; según los criterios de revisión de cambio de fase o de publicación, preparar revisiones periódicas que informen el avance y sustenten el financiamiento hasta la siguiente revisión.
+Nivel de capacidad en DHM: Capacidad oficial 3 y 4; en DHM, ejecución mínima gestionada (no es meta).
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Lanzar los proyectos de cierre de brechas conforme al plan aprobado, con responsables y recursos asignados en Jira, y presentar cada hito al CDC para autorizar la continuación. | BAI05.03: Comunicaciones de la visión. | Resultados de la monitorización de la consecución de metas del programa (APO02.04). | a. Porcentaje de firmas autorizadas de las partes interesadas para revisiones de cambio de fase de programas activos. / b. Número de análisis de causas raíz por desviaciones del plan y acciones remediales abordadas. | A y R: Líder Técnico. R: Jefe de Ventas y Representante de Logística. |
+<<END TABLE>>
+Narrativa: Con el plan aprobado, el Líder Técnico lanza los proyectos de cierre de brechas y dirige a los equipos mediante el tablero de Jira. Cada hito relevante se presenta al CDC para autorizar la continuación y se deja constancia en el acta; cuando el resultado se aparta del plan, el CDC solicita la causa y una acción correctiva. Estas actividades oficiales pertenecen a capacidad 3 y 4: en Nivel 2 se ejecutan de forma mínima gestionada, sin instituir el proceso de obtención de beneficios ni la planificación de auditorías de programa.
+Fuente: (ISACA, 2018b, BAI01.05)
+[Ttulo3] BAI01.06 — Monitorizar, controlar y reportar sobre los resultados del programa
+Descripción oficial: Monitorizar y controlar el rendimiento frente al plan durante todo el ciclo de vida económico de la inversión, cubriendo la entrega de soluciones a nivel de programa y el valor o resultado a nivel empresarial, y reportar el rendimiento al comité de dirección del programa y a los patrocinadores.
+Nivel de capacidad en DHM: Capacidad oficial 3 y 4; en DHM, ejecución mínima gestionada (no es meta).
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Comparar el avance real de cada proyecto con el plan (alcance, cronograma y costo) y reportar al CDC el estado y las desviaciones, activando acciones correctivas oportunas. | APO05.01: Expectativas de retorno de la inversión. / APO05.02: Evaluaciones de los casos de negocio. / APO05.03: Informes sobre el rendimiento del portafolio de inversiones. / APO05.05: Resultados de beneficios y comunicaciones relacionadas; Acciones correctivas para mejorar la obtención de beneficios. / APO07.05: Análisis de déficit de recursos; Registro de la utilización de recursos. / BAI05.04: Comunicación de beneficios. / BAI06.03: Informes de estado de peticiones de cambios. / BAI07.05: Evaluación de los resultados de aceptación. / EDM02.04: Retroalimentación sobre el rendimiento del portafolio y los programas. | Resultados de la revisión por fases (APO02.04, APO05.03, EDM02.02). Resultados de las revisiones de rendimiento del programa (MEA01.03). | a. Porcentaje de beneficios de programas esperados y logrados. / b. Porcentaje de programas para los que se monitorizó el rendimiento y se tomó acción remedial oportuna. | A y R: Líder Técnico. R: Responsable PQA. |
+<<END TABLE>>
+Narrativa: El Líder Técnico consulta el tablero de Jira y el dashboard de Power BI para comparar el avance real con el planificado. Las desviaciones de cronograma y de precisión de planificación, hoy no medidas, se reportan al CDC junto con la acción correctiva propuesta. La Responsable PQA verifica que los reportes sean completos y oportunos. Las actividades oficiales de esta práctica inician en capacidad 3 y 4 (actualización de portafolios, informes de valor y beneficios); en Nivel 2 el seguimiento se limita a alcance, tiempo y costo de los proyectos, sin adoptar el reporte de beneficios como meta.
+Fuente: (ISACA, 2018b, BAI01.06)
+[Ttulo3] BAI01.07 — Gestionar la calidad del programa
+Descripción oficial: Preparar y ejecutar un plan de gestión de la calidad, con procesos y prácticas alineados con el sistema de gestión de calidad, que describa el enfoque de calidad del programa y cómo se implementará; las partes afectadas lo revisan, lo aceptan formalmente y lo incorporan al plan integrado del programa.
+Nivel de capacidad en DHM: Capacidad oficial 3 y 4; en DHM, ejecución mínima gestionada (no es meta).
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Definir en el plan del programa quién asegura la calidad de los entregables, cómo se revisan y con qué criterios de éxito, y ejecutar las revisiones de calidad en cada hito. | APO11.01: Planes para la gestión de la calidad. / APO11.02: Requisitos del cliente para la gestión de la calidad. | Plan para la gestión de la calidad (BAI02.04, BAI03.06, BAI07.01). Requisitos para la verificación independiente de los entregables (BAI07.03). | a. Porcentaje de paquetes de construcción sin errores. / b. Porcentaje de entregables del programa aprobados en cada revisión. | A y R: Responsable PQA. R: Líder Técnico. |
+<<END TABLE>>
+Narrativa: La Responsable PQA, independiente del Líder Técnico, revisa los entregables de cada hito contra criterios de aceptación definidos en el plan, apoyándose en las listas de verificación de Confluence y en SonarQube para el código, y presenta los resultados al CDC. Esta práctica contribuye a cerrar la brecha B7, la ausencia de roles de aseguramiento de calidad independientes. Las actividades oficiales de acreditación de sistemas y de validación independiente son de capacidad 3 y 4, por lo que en Nivel 2 se ejecuta una versión mínima gestionada y no se adopta como meta.
+Fuente: (ISACA, 2018b, BAI01.07)
+[Ttulo3] BAI01.08 — Gestionar el riesgo del programa
+Descripción oficial: Eliminar o minimizar el riesgo específico asociado a los programas mediante un proceso sistemático de planificación, identificación, análisis, respuesta, monitorización y control de las áreas o eventos que pueden ocasionar un cambio no deseado, definiendo y registrando los riesgos que enfrenta la gestión del programa.
+Nivel de capacidad en DHM: Capacidad oficial 3; en DHM, ejecución mínima gestionada (no es meta).
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Registrar y evaluar los riesgos del programa (probabilidad e impacto), asignar un dueño a cada respuesta y revisarlos en las sesiones del CDC. | APO12.02: Resultados del análisis de riesgos. / BAI02.03: Registro de riesgos de los requisitos; Acciones para la mitigación de riesgos. Fuera de COBIT: Marco para la gestión de riesgos empresariales (ERM). | Registro de riesgos del programa; Resultados de la evaluación de riesgos del programa; Plan de gestión de riesgos del programa (todas Internas). | a. Número de programas sin una evaluación de riesgos adecuada. / b. Porcentaje de programas alineados con el marco empresarial de gestión de riesgos. | A y R: Líder Técnico. R: Responsable PQA. |
+<<END TABLE>>
+Narrativa: El CDC parte del registro inicial de diez riesgos de la Fase 3 (matriz de probabilidad por impacto en Jira, revisada mensualmente) y agrega los riesgos propios del programa: dependencia de un equipo pequeño (D2), rotación del personal clave y resistencia al cambio (D4). Cada riesgo tiene dueño y respuesta, y se revisa en las sesiones del CDC. La estrategia formal alineada con un marco empresarial y la asignación del proceso a un equipo independiente son actividades de capacidad 3: en Nivel 2 se mantiene un registro gestionado y no se adopta como meta.
+Fuente: (ISACA, 2018b, BAI01.08)
+[Ttulo3] BAI01.09 — Cerrar un programa
+Descripción oficial: Retirar el programa del portafolio de inversiones activas cuando se acuerda que se alcanzó el valor deseado o cuando queda claro que no se alcanzará dentro de los criterios de valor establecidos para el programa.
+Nivel de capacidad en DHM: Capacidad oficial 3, 4 y 5; en DHM, ejecución mínima gestionada (no es meta).
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Cerrar el programa de forma ordenada: aprobación formal del CDC, validación de entregables y comunicación del cierre a toda la organización. | BAI07.08: Informe de la revisión post-implementación; Plan de acciones remediales. | Comunicación de la retirada del programa y de la rendición de cuentas continua (APO05.04, APO07.06). | a. Porcentaje de programas cerrados con éxito que lograron el valor deseado. / b. Tiempo entre el lanzamiento del programa y la detección de logro del valor. | A: Gerente General. R: Líder Técnico. |
+<<END TABLE>>
+Narrativa: Cuando el programa de mejora CMMI v3.0 Nivel 2 alcance su meta, el CDC decide el cierre en acta, valida que los entregables estén aprobados y comunica el resultado a toda la organización. Como el CDC funciona de manera permanente mientras DHM mantenga la certificación o esté en proceso de mejora (Anexo B), el cierre puede hacerse por proyecto o por fase del programa. La revisión de lecciones aprendidas (capacidad 4) y la rendición de cuentas continua sobre el valor (capacidad 5) exceden el techo de Nivel 2 y no se plantean como meta.
+Fuente: (ISACA, 2018b, BAI01.09)
+[Ttulo2] Síntesis del objetivo
+BAI01 responde a la dolencia J y a la brecha B1 de DHM: los proyectos de mejora no tienen plan, estimaciones ni seguimiento formales. Con el techo de Nivel 2, DHM formaliza tres elementos oficiales: un enfoque estándar de gestión de programas, el patrocinio con un gestor dedicado y un plan del programa con financiación, costo, cronograma e interdependencias. El CDC actúa como comité del programa y Jira, Confluence y Power BI sostienen el plan dentro del presupuesto del Anexo C. Las seis prácticas restantes se ejecutan solo en forma mínima gestionada, sin adoptar actividades de capacidad 3, 4 o 5 como meta. Los principales riesgos son la dependencia de un equipo pequeño (D2) y la resistencia cultural en ventas y conductores (D4), mitigados con suplentes por rol y comunicación visible del avance.
+FIN BAI01. Listo para MEA03.

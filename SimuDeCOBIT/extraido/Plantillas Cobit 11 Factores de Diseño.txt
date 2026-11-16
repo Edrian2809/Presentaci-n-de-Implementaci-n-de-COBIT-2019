@@ -1,0 +1,102 @@
+UNIVERSIDAD NACIONAL DE INGENIERÍA
+________________________________________
+Plantillas COBIT para los 11 Factores de DiseñoElaborado por:
+Br. Anngelly Aleska Mejia Mendoza
+Br. Edrian Gabriel Espinoza Herrera
+Br. Eliza Sougey Aguirre Gonzales
+Asignatura:
+Ingeniería de Software III
+Tutor:
+Msc. Roberto Carlos Alfaro Arriola
+Grupo:
+5T2-COM-S
+23 septiembre del 2026
+Managua, Nicaragua.
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 1: Estrategia de la Empresa
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Liderazgo en Costos (5/5) / Servicio al Cliente y Estabilidad (4/5) |
+| Evidencia y justificación | DHM opera en el sector de distribución mayorista de alimentos (huevos), donde el producto es perecedero y los márgenes son reducidos. La empresa sustenta su viabilidad en la eficiencia extrema del costo operativo y la lealtad de sus clientes mayoristas mediante entregas exactas y cumplimiento de pedidos. |
+| Herramienta / técnica aplicada | Marco de Tipología Estratégica de Miles & Snow (1978) aplicado al Ciclo Adaptativo de la empresa y mapeo a las 4 clasificaciones del COBIT 2019 Design Guide (ISACA, 2018a, p. 21). |
+| Impacto esperado en el gobierno | Priorización de APO06 (+30), EDM04 (+30), APO10 (+30) y APO09 (+25). Nivel de capacidad 3 en procesos de operación, monitoreo y control de calidad; nivel 2 en planificación y gestión de configuración. Áreas prioritarias: PyME y Ciberseguridad (BYOD). Objetivos moderados: APO02 y APO03 (−30 cada uno) |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 2: Metas de la Empresa
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | EG01 (peso 5 — Financiera), EG05 (peso 4 — Cliente), EG08 (peso 4 — Procesos Internos), EG13 (peso 5 — Crecimiento e Innovación) |
+| Evidencia y justificación | EG01: mantener rentabilidad del catálogo mayorista mediante reducción de mermas, lotes vencidos y morosidad. EG05: incrementar satisfacción del cliente con servicio confiable y trazable. EG08: optimizar procesos operativos para reducir tiempos de ciclo y garantizar disponibilidad del sistema. EG13: desarrollar capacidades de innovación y transformación digital para sostener competitividad. Las 9 metas restantes (EG02, EG03, EG04, EG06, EG07, EG09, EG10, EG11, EG12) se descartan por impacto secundario frente a las cuatro seleccionadas. |
+| Herramienta / técnica aplicada | Cuadro de Mando Integral (Balanced Scorecard - Kaplan & Norton, 1996) y Matriz de Cascada de Metas COBIT 2019 (ISACA, 2018a, págs. 22-24). |
+| Impacto esperado en el gobierno | Cascada de metas deriva en AG03, AG09, AG05, AG08, AG06, AG13 → APO05 (+25), BAI01 (+25), DSS01 (+30), DSS02 (+10), APO03 (+25), BAI03 (+30), APO04 (+35, máximo del factor), APO02 (+30). El Toolkit asigna a APO04 la mayor importancia relativa del conjunto, validando cuantitativamente la priorización cualitativa. |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 3: Perfil de Riesgo
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Riesgo Muy Alto en 2 categorías y Alto en 3 categorías. Las 5 categorías críticas: (1) Incidentes de infraestructura (20/25), (2) Ataques lógicos (20/25), (3) Programas y proyectos (16/25), (4) Habilidades del personal de TI (16/25), (5) Información y datos (16/25). |
+| Evidencia y justificación | DHM concentra toda su operativa en una única computadora de escritorio que actúa como servidor PostgreSQL. Sin firewall, sin respaldo automatizado, sin plan de recuperación. BYOD sin políticas en 20 vendedores. El riesgo R3 (phishing/ransomware) fue identificado de forma independiente en la matriz de riesgos del proyecto CMMI. Apetito de riesgo definido: Medio-Bajo. Las 14 categorías restantes se clasifican como Normal o Bajo. |
+| Herramienta / técnica aplicada | Guía ISACA de Gestión de Riesgos de TI (ISACA, 2009, 2020), catálogo de 19 categorías genéricas de COBIT 2019 (ISACA, 2018a, p. 40), matriz de evaluación P×I (escala 1-5), y validación con Toolkit de Excel COBIT 2019 (ISACA, 2018c). Caso de referencia: PT. Kreatiful Digital Indonesia (Santoso & Putri, 2023). |
+| Impacto esperado en el gobierno | Activación prioritaria: APO13 (+85, máximo absoluto del documento), APO12 (+60), BAI04 (+55), DSS05 (+40), DSS04 (+30), DSS02 (+60), BAI06 (+70), BAI10 (+60), MEA03 (+45). Nivel de capacidad objetivo 2 (Gestionado) para seguridad y continuidad. |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 4: Problemas Relacionados con la I&T (Dolencias)
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | 3 dolencias más graves: J — Proyectos que fallan en cumplir necesidades del negocio (valor 3, Serious Issue); I — Recursos de TI insuficientes / personal sobrecargado (valor 3, Serious Issue); L — Modelo operativo de TI complejo o poco claro (valor 2, priorizada por impacto en gobernanza). |
+| Evidencia y justificación | J: Ausencia de plan de proyecto formal (brecha B1); el Gerente General: "Los proyectos de TI empiezan con entusiasmo y terminan sin que nadie sepa en qué quedaron". I: Dependencia crítica del único Líder Técnico (Luis Antonio Ramírez), debilidad D2 del FODA; el propio Ramírez: "Trabajo diez horas diarias y soy el único que sabe cómo desplegar el sistema". L: Ausencia de mecanismos de decisión formalizados (brechas B1 y B8 combinadas). Se identificaron 2 dolencias en valor 3 (I, J), 7 en valor 2 (G, H, K, L, P, Q, R) y 11 en valor 1 (A, B, C, D, E, F, M, N, O, S, T). |
+| Herramienta / técnica aplicada | Lista de Chequeo Oficial de las 20 Dolencias de I&T de COBIT 2019 (ISACA, 2018a) y Entrevistas Estructuradas con la Dirección y Administración de DHM. |
+| Impacto esperado en el gobierno | BAI01 (+10, máximo del factor) — Gestionar los programas, vinculado a J, I y L. BAI09 (+10) — Gestionar los activos. APO06, APO08, BAI02, BAI07, BAI11 (+5) refuerzan G, K, Q y R. Nivel de capacidad objetivo 2 (Gestionado). |
+<<END TABLE>>
+Plantilla Oficial COBIT® 2019 — Factor de Diseño 5: Panorama de Amenazas
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Híbrido ponderado: 75% High / 25% Normal |
+| Evidencia y justificación | Entorno externo: Normal (Nicaragua, sector de distribución de alimentos sin regulación específica de ciberseguridad ni campañas dirigidas documentadas, sin propiedad intelectual de alto valor). Exposición interna: elevada (ausencia de firewall, punto único de falla PostgreSQL, BYOD sin política, brechas CMMI B2/B9/B10). La ponderación 75/25 refleja que una amenaza externa de baja sofisticación causa el mismo daño que una sofisticada cuando encuentra una organización sin controles perimetrales ni respaldo. La limitación metodológica (posible sobrerrepresentación de exposición interna vs. Factor 3) queda declarada como criterio del equipo sujeto a validación. |
+| Herramienta / técnica aplicada | Inteligencia de Amenazas Cibernéticas (CTI) basada en el ciclo F3EAD de Brown & Roberts (2017), aplicada en 5 pasos (identificar activos críticos → definir requisitos de inteligencia → recolectar información → analizar y contextualizar → difundir y clasificar), con fuentes abiertas y gratuitas. Validación con Toolkit COBIT 2019 (ISACA, 2018c, hoja DF5). |
+| Impacto esperado en el gobierno | Nivel +65: EDM03, APO12, APO13, DSS04. Nivel +50: EDM01, APO01, APO03, APO10, APO14, BAI06, BAI10, DSS02, DSS05, DSS06, MEA01, MEA03, MEA04. Nivel +30: EDM05, APO07, APO09, APO11, BAI04, DSS03, MEA02. Sin efecto: 16 objetivos (EDM02, EDM04, APO02, APO04, APO05, APO06, APO08, BAI01, BAI02, BAI03, BAI05, BAI07, BAI08, BAI09, BAI11, DSS01). Nivel de capacidad objetivo 2 (Gestionado) para los objetivos activados. |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 6: Requerimientos de Cumplimiento
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Normal (input Toolkit: Alto 25% / Normal 75% / Bajo 0%) |
+| Evidencia y justificación | Obligaciones identificadas: trazabilidad sanitaria BPM (cumplimiento parcial, dependiente del sistema sin respaldo), declaración y pago de IR e IVA (cumplen), Código del Trabajo (cumple), confidencialidad de datos de clientes mayoristas (no formalizada), continuidad del servicio de entrega (no formalizada), respaldo y disponibilidad de datos de inventario (no cumple). Dos hallazgos elevan la urgencia: dependencia crítica de trazabilidad sanitaria de un sistema sin respaldo, y ausencia de formalización escrita de compromisos contractuales con clientes mayoristas. |
+| Herramienta / técnica aplicada | Matriz de Obligaciones de Cumplimiento (Auditool, 2025) en tres niveles (General, Sectorial, Contractual), con evaluación de severidad × probabilidad (escala 1-5). Caso de referencia: Ejemplo del COBIT 2019 Design Guide (ISACA, 2018a, p. 34). Validación con Toolkit (ISACA, 2018c, hoja DF6). |
+| Impacto esperado en el gobierno | 4 objetivos con máxima ponderación (25%): MEA03, EDM03, APO12, DSS05. Priorización secundaria: MEA04 (20%), APO13/DSS04/EDM01/EDM05/APO10 (15%), APO01/APO14 (10%). Nivel de capacidad objetivo 2 (Gestionado) para MEA03, EDM03, APO12 y DSS05. |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 7: Rol de TI en la Empresa
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Perfil híbrido: Fábrica (base operativa) con componente Estratégico emergente. Calificaciones Toolkit DF7: Soporte = 1, Fábrica = 3, Turnaround = 2, Estratégico = 5 (máximo de la escala). Promedio: 2.75; Desviación estándar: 1.48. |
+| Evidencia y justificación | Dependencia operativa: Alta (5/5) — el sistema PostgreSQL es indispensable para procesar pedidos, controlar inventario y sustentar trazabilidad sanitaria; su falla detendría la operación diaria. Contribución estratégica: Alta emergente — aunque no hay proyectos formales de diferenciación en ejecución, la aplicación del Toolkit DF7 califica el componente Estratégico con 5/5, por encima de Fábrica (3/5). La arquitectura de software propia sobre PostgreSQL y la documentación de requisitos existente constituyen una base de innovación reconocida por la organización, aunque aún no materializada en un proyecto formal. |
+| Herramienta / técnica aplicada | Matriz de Cuadrantes Estratégicos de McFarlan (McFarlan, 1984; Nolan & McFarlan, 2005), aplicada en 5 pasos (dependencia operativa → contribución estratégica → posicionamiento → implicaciones de gobierno → revisión periódica). Validación con Toolkit COBIT 2019 (ISACA, 2018c, hoja DF7). |
+| Impacto esperado en el gobierno | Máxima relevancia (30/30): EDM01. Alta prioridad: DSS04 (5), APO12 (4), DSS01 (4), BAI04 (4). Moderada: APO02 (3), APO08 (3), APO04 (3). Foco dual: estabilidad y continuidad operativa (DSS01/DSS04) junto con vigilancia activa de la innovación (EDM01, APO04, APO12). Sin comité de TI a nivel de consejo (no alcanza umbral Estratégico puro); se recomienda responsable de TI reportando a gerencia general con revisión trimestral operativa y anual de posicionamiento. |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 8: Modelo de Abastecimiento de TI
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | 100% Insourcing (con recomendación de evolución hacia modelo híbrido para respaldo y seguridad perimetral) |
+| Evidencia y justificación | Sistema de gestión corre sobre PostgreSQL alojado en una única PC administrativa. Sin firewall corporativo. BYOD para conductores y WhatsApp como canal de comunicación operativa. No se identifica ningún contrato vigente de outsourcing de TI ni de servicios cloud contratados formalmente (hosting, backup gestionado, soporte externo). El uso de WhatsApp no se clasifica como "cloud" en el sentido del Factor 8 porque no constituye una prestación de TI contratada bajo acuerdo de servicio, sino informática de usuario final no gobernada (corresponde al síntoma "R" del Factor 4). |
+| Herramienta / técnica aplicada | Matriz de Decisión de Sourcing del COBIT 2019 Design Toolkit, con inventario de cartera de servicios (7 servicios de TI) y revisión contractual. Cálculo matricial contra tabla de pesos del Apéndice I (ISACA, 2018a, p. 148). Caso de referencia: Ejemplo 1 del COBIT 2019 Design Guide (ISACA, 2018a, p. 86, reparto 20% outsourcing / 80% insourced). |
+| Impacto esperado en el gobierno | Atenuación: APO09 (−65%), APO10 (−65%), MEA01 (−55%), APO12 (−40%), EDM03 (−25%). Sin efecto: 35 objetivos restantes (permanecen en 0%). Activación por juicio profesional (convergencia con Factores 3 y 7): APO07, BAI08, DSS01 (nivel 2). El Factor 8, por sí solo, no activa ningún objetivo por encima de la banda neutra; confirma cuantitativamente que el sistema de gobierno debe concentrarse en otros factores (especialmente Factores 3 y 7). |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 9: Métodos de Implementación de TI
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Híbrido: 50% Ágil / 10% DevOps / 40% Tradicional |
+| Evidencia y justificación | (a) Ágil (50%): sistema central evoluciona mediante ciclos cortos e informales, cambios de alcance frecuentes solicitados por gerencia, entregas incrementales de módulos funcionales, ausencia de planificación secuencial de largo alcance. (b) DevOps parcial (10%): uso de control de versiones para desplegar cambios incrementalmente en producción, sin pipeline formal pero con automatización mínima del despliegue. (c) Tradicional (40%): ciclo original de construcción del sistema, procesos administrativos por lotes (cierre contable), y disciplina de proceso documentada en las 10 brechas CMMI (B1–B10). |
+| Herramienta / técnica aplicada | Modelo CMMI® V3.0 para Desarrollo (CMMI Product Team, 2023) y Agile Fluency Model (Shore & Larsen, s.f.), con mapeo de indicadores observables (ciclo secuencial vs. iteraciones cortas vs. CI/CD) ponderado por peso relativo de cada componente de la cartera. Cálculo matricial contra tabla de pesos del Apéndice J (ISACA, 2018a, p. 149). Caso de referencia: adopción gradual de prácticas DevOps en pyme. |
+| Impacto esperado en el gobierno | Mayor importancia relativa: BAI03 (+65%), BAI02 (+60%), BAI06 (+60%), BAI11 (+45%), BAI05 (+40%), BAI07 (+40%), BAI01 (+30%), BAI10 (+15%), MEA01 (+15%). Los 31 objetivos restantes: score = baseline (0%). Nivel de capacidad objetivo 2–3 según objetivo. El reparto híbrido activa los objetivos de gestión de requisitos, soluciones y cambio de TI que un perfil 100% Tradicional habría dejado en banda neutra. |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 10: Estrategia de Adopción de Tecnología
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Híbrido ponderado: 75% First Mover / 15% Follower / 10% Slow Adopter |
+| Evidencia y justificación | (a) First Mover (75%): sistema central de inventario y ventas (Clean Architecture, desarrollo propio) — ningún competidor documentado del sector opera un sistema equivalente; aplicando el criterio relativo de innovatividad de Rogers (1995, p. 261), DHM se sitúa por encima del promedio de su grupo de referencia sectorial en el componente de mayor peso estratégico. (b) Follower (15%): WhatsApp como herramienta de comunicación operativa, adoptada una vez consolidada en el mercado general. (c) Slow Adopter (10%): infraestructura de soporte (firewall, servidores dedicados, control de versiones) — tecnologías maduras desde hace más de una década, aún no adoptadas.. |
+| Herramienta / técnica aplicada | Rogers (Rogers, 1995, 4.ª ed.), con las 5 categorías (innovadores 2.5%, adoptantes tempranos 13.5%, mayoría temprana 34%, mayoría tardía 34%, rezagados 16%) mapeadas a las 3 categorías COBIT (First Mover 16%, Follower 68%, Slow Adopter 16%). Cálculo matricial contra tabla de pesos del Apéndice K (ISACA, 2018a, p. 150). Casos de referencia: Ejemplo 1 (10% first mover) y Ejemplo 2 (100% first mover) del COBIT 2019 Design Guide |
+| Impacto esperado en el gobierno | Máxima importancia relativa: APO07 (+75%, máximo del factor), APO08 (+55%), APO03 (+50%), APO01/APO05/APO10 (+40%), BAI03 (+40%), EDM02 (+35%), BAI05 (+35%), MEA01 (+35%). Moderada: BAI02/BAI07/BAI11 (+30%), EDM03/EDM05 (+30%), BAI08/BAI10/DSS03/DSS04/DSS05 (+30%), EDM01/APO02/APO04/BAI01 (+25%), APO12/APO14/BAI06 (+20%), EDM04 (+15%). Negativa: APO06 (−20%). 13 objetivos en 0%. El perfil first mover activa con fuerza APO03 (arquitectura) y APO07 (personal), reforzando la conclusión del Factor 8: el riesgo central es la concentración del conocimiento crítico en muy pocas personas. |
+<<END TABLE>>
+[Ttulo3] Plantilla Oficial COBIT® 2019 — Factor de Diseño 11: Tamaño de la Empresa
+<<TABLE>>
+| Campo Oficial COBIT® 2019 | Evaluación y Resultado para Distribuidora Huevos Méndez, S.A. (DHM) |
+| Clasificación seleccionada | Pequeña Empresa / Microempresa (38.0 FTE — SME Guidance) |
+| Evidencia y justificación | DHM cuenta con un total de 38 empleados a tiempo completo (38.0 FTE). Al situarse por debajo del umbral de 50 FTE, califica formalmente como microempresa, adoptando por aproximación metodológica la Guía de Diseño para Pymes de COBIT 2019 (ISACA, 2018a, p. 28, nota 10). |
+| Herramienta / técnica aplicada | Conteo Oficial de Equivalentes a Tiempo Completo (FTE) según la fórmula: Total FTE = Suma(Horas trabajadas / 40h semanales) y comparación contra los umbrales de escala de COBIT 2019. |
+| Impacto esperado en el gobierno | Simplificación integral del sistema de gobierno: sustitución de comités corporativos por un rol unificado de Custodio de I&T en el Administrador, políticas ágiles y selección de objetivos de control indispensables. |
+<<END TABLE>>

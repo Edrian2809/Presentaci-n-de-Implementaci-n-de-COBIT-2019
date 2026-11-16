@@ -1,0 +1,9 @@
+{
+  "extraPaths": [
+    "C:\\Users\\GMGIN\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages",
+    "C:\\Users\\GMGIN\\AppData\\Roaming\\Python\\Python312\\site-packages"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false
+}
+

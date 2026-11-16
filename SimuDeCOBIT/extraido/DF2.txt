@@ -1,0 +1,166 @@
+[Heading1] OBJETIVO 2 — APO04 — Gestionar la Innovación
+Factor de diseño: Factor de Diseño 2 — Metas Empresariales
+[Heading2] Justificación de activación
+La meta empresarial EG13 (Innovación de productos y del negocio) fue seleccionada con el peso máximo en la ponderación de metas del caso. En la evaluación de factores de diseño de DHM, APO04 obtiene una importancia relativa de +35, el valor más alto del Factor de Diseño 2 (ISACA, 2018c). La oportunidad de digitalización de pymes distribuidoras (O3 del FODA) refuerza esta prioridad. La conexión con las brechas de DHM es clara: la empresa cuenta con software propio en Python, Django y PostgreSQL, pero las ideas de mejora surgen de manera espontánea y no existe un mecanismo para evaluarlas, probarlas o descartarlas con criterio. Con 38 empleados y una resistencia cultural al cambio en ventas y conductores (D4), innovar sin método consumiría tiempo del equipo técnico sin resultados medibles. APO04 propone mantener conciencia de las tendencias, identificar oportunidades y planificar cómo aprovecharlas (ISACA, 2018b, APO04). El objetivo se desarrolla desde el nivel actual 0 hasta el nivel objetivo 2 (Gestionado), con pruebas de concepto pequeñas financiadas dentro del presupuesto existente.
+[Heading2] Componente 1: Procesos
+[Heading3] 1. ¿Cuáles son los impulsores?
+EG13 exige innovación de producto y de negocio, y APO04 aporta el método para lograrla: crear un entorno favorable, entender el negocio, vigilar la tecnología, evaluar ideas, probarlas y supervisar sus resultados (ISACA, 2018b, APO04). Los impulsores en DHM son la oportunidad de digitalización del sector, el software propio que permite experimentar y la necesidad de diferenciarse frente a distribuidores que compiten solo por precio.
+[Heading3] 2. ¿Dónde estamos ahora?
+Nivel de capacidad actual: 0. Las ideas de mejora llegan de clientes, conductores o vendedores y se atienden según la urgencia del momento. No hay plan de innovación, registro de ideas, criterios de evaluación ni pruebas de concepto documentadas. El Líder Técnico decide en la práctica qué se desarrolla, sin comparar beneficio esperado y costo, y sin dejar rastro escrito de la decisión (ISACA, 2018b, APO04.01).
+[Heading3] 3. ¿Dónde queremos estar?
+Nivel de capacidad objetivo: 2 (Gestionado). DHM contaría con un plan de innovación breve, un registro de ideas, una vigilancia tecnológica periódica y un procedimiento para evaluar y probar ideas mediante pruebas de concepto acotadas. Cada prueba tendría alcance, presupuesto, plazo y responsable, y sus resultados se comunicarían al CDC para decidir si se continúa o se cierra (ISACA, 2018a; 2018b, APO04.04).
+[Heading3] 4. ¿Qué se necesita hacer?
+Redactar un plan de innovación con objetivos y tolerancia al riesgo; crear un registro de ideas en Jira; establecer una rutina trimestral de vigilancia tecnológica; definir criterios para evaluar ideas; acordar la plantilla de prueba de concepto; y determinar cómo se documentan los resultados, las lecciones aprendidas y las decisiones de continuar o descartar cada iniciativa (ISACA, 2018b, APO04). Cada paso queda asignado.
+[Heading3] 5. ¿Cómo llegamos allí?
+Con un taller inicial dirigido por la Ing. Marcela Rivas, un tablero de ideas en Jira, una plantilla de prueba de concepto en Confluence y una sesión trimestral de vigilancia tecnológica del Líder Técnico. Las decisiones se llevan al CDC, sin crear estructuras adicionales, y se limitan a una prueba de concepto activa a la vez (ISACA, 2018d, Fase 4).
+[Heading3] 6. ¿Llegamos?
+Se verifica la existencia del plan de innovación aprobado, el registro de ideas con al menos cinco entradas evaluadas, un informe de vigilancia tecnológica y una prueba de concepto documentada de principio a fin, con su decisión en acta del CDC. Ana María Sandoval, como Responsable PQA, revisa que el procedimiento se haya seguido y registra los hallazgos (ISACA, 2018a; 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+La vigilancia tecnológica y la revisión del registro de ideas se programan como puntos trimestrales del CDC. Las pruebas concluidas dejan lecciones aprendidas en Confluence, los resultados se comunican a toda la empresa y el plan de innovación se ajusta cada año según la estrategia y el presupuesto disponible, con el patrocinio visible del Gerente General y sin perder continuidad (ISACA, 2018d, Fase 7).
+[Heading2] Componente 2: Estructuras organizativas
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT reparte la gestión de la innovación entre el comité ejecutivo, la dirección de tecnología, los dueños de procesos de negocio y la función de arquitectura (ISACA, 2018b, APO04). DHM necesita una estructura mínima que conecte a quienes conocen el problema del negocio con quienes conocen la tecnología, sin crear cargos nuevos.
+[Heading3] 2. ¿Dónde estamos ahora?
+La innovación recae de hecho en Luis Antonio Ramírez, quien recibe pedidos de todas las áreas y los prioriza por cuenta propia. Roberto José Gutiérrez y José Francisco Pérez conocen los problemas de clientes y rutas, pero no tienen un canal formal para proponer mejoras. El CDC no trata el tema.
+[Heading3] 3. ¿Dónde queremos estar?
+Carlos Méndez como patrocinador de la innovación desde el CDC; Luis Antonio Ramírez como responsable del registro de ideas y las pruebas de concepto; Roberto José Gutiérrez y José Francisco Pérez como dueños de los problemas de negocio; Ana María Sandoval como revisora de resultados (ISACA, 2018b, APO04).
+[Heading3] 4. ¿Qué se necesita hacer?
+Nombrar al Líder Técnico como responsable de innovación, incluir un punto trimestral de innovación en el CDC, designar a los líderes de ventas y logística como dueños de las ideas de su área y documentar los roles en una matriz RACI para APO04.01 a APO04.06 (ISACA, 2018b, APO04).
+[Heading3] 5. ¿Cómo llegamos allí?
+Mediante una acta del CDC que designe responsabilidades y la matriz RACI publicada en Confluence. La Ing. Marcela Rivas orienta la primera sesión. Se evita crear comités nuevos y se aprovecha el calendario existente del CDC, quincenal las primeras semanas y luego mensual (ISACA, 2018d, Fase 2).
+[Heading3] 6. ¿Llegamos?
+Existe acta de designación, la matriz RACI está publicada y el punto de innovación aparece en al menos dos agendas del CDC. Los líderes de ventas y logística han presentado ideas a través del canal formal y recibieron respuesta documentada (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Reconfirmar los roles cada seis meses, rotar la presentación de ideas entre áreas y designar un suplente del Líder Técnico que conozca el procedimiento, reduciendo así la dependencia de una sola persona identificada en la debilidad D2 del FODA (ISACA, 2018d, Fase 7).
+[Heading2] Componente 3: Flujos y elementos de información
+[Heading3] 1. ¿Cuáles son los impulsores?
+La innovación necesita información ordenada: guía de apetito al riesgo, estrategia y FODA, análisis de investigación tecnológica, alcance de pruebas de concepto y evaluaciones de beneficios (ISACA, 2018b, APO04). Sin estos elementos, las ideas se pierden en conversaciones y el CDC no puede comparar alternativas ni aprender de intentos anteriores.
+[Heading3] 2. ¿Dónde estamos ahora?
+Las ideas se transmiten por mensajes, llamadas o conversaciones en pasillo. No existe registro, criterios de evaluación ni informes de tendencias. El FODA sí existe como resultado del taller del CDC y contiene la oportunidad O3, pero no se ha convertido aún en insumo para decisiones de innovación.
+[Heading3] 3. ¿Dónde queremos estar?
+Un registro de ideas en Jira, un informe trimestral de vigilancia tecnológica, un plan de innovación, una plantilla de alcance de prueba de concepto y un formato de evaluación de resultados. Cada elemento con dueño, ubicación en Confluence y vínculo con la estrategia y el FODA (ISACA, 2018b, APO04).
+[Heading3] 4. ¿Qué se necesita hacer?
+Definir la estructura del registro de ideas, elaborar las plantillas de plan, alcance y resultados, acordar qué información del FODA y del presupuesto alimenta cada evaluación y determinar quién produce y quién recibe cada documento dentro del ciclo de innovación (ISACA, 2018b, APO04).
+[Heading3] 5. ¿Cómo llegamos allí?
+Crear un proyecto de Jira para ideas con estados definidos, publicar las plantillas en Confluence y usar los datos del presupuesto de APO06 para dimensionar cada prueba. Luis Antonio Ramírez mantiene los registros y presenta el resumen trimestral al CDC (ISACA, 2018d, Fase 4).
+[Heading3] 6. ¿Llegamos?
+Se comprueba que cada idea del registro tiene estado, evaluación y decisión; que el informe de vigilancia se entregó en la fecha prevista; y que la prueba de concepto realizada tiene alcance y resultados completos. Ana María Sandoval revisa una muestra (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Revisar cada semestre si las plantillas siguen siendo útiles, archivar las ideas cerradas con su justificación y mantener trazabilidad entre ideas, pruebas y decisiones, de manera que los intentos anteriores sirvan como memoria institucional para el equipo (ISACA, 2018d, Fase 7).
+[Heading2] Componente 4: Personas, habilidades y competencias
+[Heading3] 1. ¿Cuáles son los impulsores?
+La innovación demanda habilidades de monitoreo de tendencias, investigación, desarrollo de casos de negocio y evaluación de tecnologías emergentes. COBIT las vincula con competencias SFIA como EMRG, INOV y RSCH (ISACA, 2018b, APO04; SFIA Foundation, 2015). En DHM, esas capacidades dependen de un equipo pequeño con poca experiencia formal en gestión de innovación.
+[Heading3] 2. ¿Dónde estamos ahora?
+Luis Antonio Ramírez tiene sólidas competencias técnicas en Python, Django y PostgreSQL, pero no ha formalizado prácticas de vigilancia tecnológica ni de evaluación de casos de negocio. Los líderes de ventas y logística conocen bien los problemas, pero no formulan ideas de forma estructurada.
+[Heading3] 3. ¿Dónde queremos estar?
+Un Líder Técnico capaz de vigilar tendencias, redactar alcances de prueba y evaluar beneficios; y líderes de área capaces de describir un problema con datos y proponer una mejora. Las competencias quedarían registradas en la matriz de habilidades del proyecto (ISACA, 2018b, APO04; SFIA Foundation, 2015).
+[Heading3] 4. ¿Qué se necesita hacer?
+Diagnosticar competencias frente a INOV, EMRG y RSCH, capacitar al Líder Técnico en evaluación de tecnologías y casos de negocio, y entrenar a los líderes de área en cómo formular una idea con problema, beneficio esperado y datos de apoyo (Tobón, 2013).
+[Heading3] 5. ¿Cómo llegamos allí?
+Con un taller de ocho horas facilitado por la Ing. Marcela Rivas, ejercicios aplicados al problema real de rutas y pedidos, y acompañamiento en la primera prueba de concepto. Se prioriza el aprendizaje en la práctica sobre la teoría (ISACA, 2018d, Fase 4; Tobón, 2013).
+[Heading3] 6. ¿Llegamos?
+Se verifica que el Líder Técnico produjo un informe de vigilancia y un alcance de prueba sin ayuda externa, y que los líderes de área presentaron ideas completas. La matriz de habilidades refleja el avance y las evaluaciones posteriores al taller son satisfactorias (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Programar una actualización anual de competencias, fomentar la asistencia a webinars o eventos gratuitos del sector y compartir internamente lo aprendido en sesiones cortas de treinta minutos, para que el conocimiento se distribuya más allá del Líder Técnico (ISACA, 2018d, Fase 7).
+[Heading2] Componente 5: Cultura, ética y comportamiento
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT propone un entorno que premie la innovación, con reconocimiento, tiempo para experimentar y colaboración entre áreas (ISACA, 2018b, APO04). En DHM, la resistencia al cambio de ventas y conductores (D4) puede convertir cada novedad en amenaza si no se involucra a quienes la vivirán.
+[Heading3] 2. ¿Dónde estamos ahora?
+La cultura es práctica y orientada a operar el día a día. Las ideas provienen de pocas personas y quienes trabajan en calle raramente proponen cambios. Hay temor a que una novedad tecnológica complique el trabajo o afecte la estabilidad de los empleos (D4).
+[Heading3] 3. ¿Dónde queremos estar?
+Una cultura donde cualquier empleado puede proponer mejoras, sabe que recibirá respuesta y percibe que probar y descartar es parte normal del trabajo. Los líderes reconocen públicamente las ideas útiles y el error controlado deja de ser motivo de reproche (ISACA, 2018b, APO04; Kotter, 1996).
+[Heading3] 4. ¿Qué se necesita hacer?
+Abrir un canal simple para proponer ideas, responder a cada una en un plazo fijo, involucrar a conductores y vendedores en las pruebas que los afecten y reconocer las contribuciones. Explicar cada cambio con el beneficio concreto para quien lo usará (Hiatt, 2006).
+[Heading3] 5. ¿Cómo llegamos allí?
+Carlos Méndez comunica el propósito de la innovación y otorga reconocimiento visible; Roberto José Gutiérrez y José Francisco Pérez invitan a sus equipos a participar. Se usa la secuencia conciencia, deseo y conocimiento de ADKAR en comunicaciones cortas (Hiatt, 2006; Kotter, 1996).
+[Heading3] 6. ¿Llegamos?
+Se cuenta cuántas personas de distintas áreas presentaron ideas, cuántas recibieron respuesta a tiempo y cuántas pruebas incluyeron a los usuarios finales. Una conversación breve con vendedores y conductores permite comprobar si perciben la innovación como apoyo (Hiatt, 2006).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Celebrar cada trimestre una idea implementada, publicar el resultado de las pruebas descartadas como aprendizaje y mantener una conversación abierta sobre lo que funcionó y lo que no, evitando castigar los intentos que no prosperan (Kotter, 1996; ISACA, 2018d, Fase 7).
+[Heading2] Componente 6: Políticas y procedimientos
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT sugiere principios de innovación que garanticen que las ideas nuevas se evalúen de forma exhaustiva al definir metas y decisiones estratégicas (ISACA, 2018b, APO04). Para DHM, una política breve evita que la innovación dependa del entusiasmo de una persona y permite justificar decisiones ante el CDC.
+[Heading3] 2. ¿Dónde estamos ahora?
+No existe política ni procedimiento de innovación. No hay reglas que indiquen cuánto tiempo o dinero se dedica a experimentar, qué ideas se aceptan, ni cómo se decide continuar o detener una prueba. Las decisiones se toman de manera verbal y sin registro.
+[Heading3] 3. ¿Dónde queremos estar?
+Un documento de Principios de Innovación aprobado por el Gerente General y un procedimiento corto para gestionar ideas y pruebas de concepto, con tolerancia al riesgo, presupuesto de referencia, criterios de evaluación y reglas para continuar o cerrar una prueba (ISACA, 2018b, APO04).
+[Heading3] 4. ¿Qué se necesita hacer?
+Redactar los principios y el procedimiento, definir el presupuesto máximo por prueba usando la contingencia del presupuesto de I&T, validar los documentos con Roberto José Gutiérrez, José Francisco Pérez y Ana María Sandoval, y aprobarlos en el CDC (ISACA, 2018b, APO04).
+[Heading3] 5. ¿Cómo llegamos allí?
+La Ing. Marcela Rivas facilita la redacción usando las plantillas del proyecto CMMI. Los documentos se publican en Confluence, se presentan en una reunión con los líderes de área y se incorporan a la inducción del personal técnico (ISACA, 2018d, Fase 3).
+[Heading3] 6. ¿Llegamos?
+Se verifica que los documentos estén aprobados y publicados, que la primera prueba de concepto haya seguido el procedimiento y que las decisiones queden en actas. Ana María Sandoval registra las desviaciones y propone correcciones al procedimiento (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Revisar los principios una vez al año, ajustar el presupuesto de referencia según los resultados obtenidos y actualizar el procedimiento con las lecciones de cada prueba, comunicando los cambios a quienes proponen ideas y a los líderes de las áreas involucradas (ISACA, 2018d, Fase 7).
+[Heading2] Componente 7: Servicios, infraestructura y aplicaciones
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT identifica plataformas de colaboración, benchmarks de la industria y servicios de vigilancia tecnológica como soporte de APO04 (ISACA, 2018b, APO04). DHM ya cuenta con Jira, Confluence, GitLab, Docker y Power BI, de modo que puede innovar con recursos existentes y sin nuevas licencias.
+[Heading3] 2. ¿Dónde estamos ahora?
+Jira y Confluence se están configurando para el proyecto CMMI, pero no se usan para gestionar ideas. GitLab y Docker permiten construir entornos de prueba, aunque sin un procedimiento para aislarlas del sistema en producción. No hay fuentes definidas para vigilancia tecnológica.
+[Heading3] 3. ¿Dónde queremos estar?
+Un proyecto de Jira para ideas, un espacio de Confluence para innovación, entornos de prueba en Docker separados de producción, Power BI para medir beneficios de las pruebas y una lista corta de fuentes confiables para vigilancia tecnológica (ISACA, 2018b, APO04).
+[Heading3] 4. ¿Qué se necesita hacer?
+Configurar el proyecto y el espacio, definir el uso de contenedores Docker para pruebas de concepto, seleccionar tres o cuatro fuentes gratuitas de vigilancia y establecer qué indicadores se medirán en Power BI para cada prueba realizada (ISACA, 2018b, APO04).
+[Heading3] 5. ¿Cómo llegamos allí?
+Luis Antonio Ramírez configura las herramientas con apoyo de la Ing. Marcela Rivas, reutilizando las licencias previstas en el presupuesto de USD 5,520. Las pruebas se ejecutan en entornos aislados y ninguna pasa a producción sin aprobación del CDC (ISACA, 2018d, Fase 4).
+[Heading3] 6. ¿Llegamos?
+Se comprueba que las ideas se gestionan en Jira, que la primera prueba de concepto corrió en un entorno aislado y que sus indicadores están en Power BI. Ana María Sandoval revisa que no se haya afectado el sistema en producción (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Revisar cada semestre las fuentes de vigilancia, limpiar los entornos de prueba que ya no se usen, respaldar el espacio de Confluence y evaluar si alguna herramienta nueva justifica su costo antes de incluirla en el siguiente presupuesto (ISACA, 2018d, Fase 7).
+[Heading2] PRÁCTICAS DE GESTIÓN DEL OBJETIVO APO04 — NIVEL 2
+[Heading3] APO04.01 — Crear un entorno favorable que conduzca a la innovación
+Descripción oficial: Crear un entorno que propicie la innovación, considerando métodos como la cultura, las recompensas, la colaboración, los foros de tecnología y los mecanismos para promover y capturar las ideas de los empleados.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Crear un plan de innovación que incluya la tolerancia al riesgo, un presupuesto propuesto para iniciativas de innovación y los objetivos de innovación | Guía del apetito de riesgo (EDM03.01); presupuesto de I&T (APO06.03) | Plan de innovación (interna) | Inclusión de objetivos de innovación en el desempeño del personal relevante | Luis Antonio Ramírez (Líder Técnico); aprueba Carlos Méndez López (Gerente General) |
+| Abrir un canal para capturar ideas del personal y definir un programa sencillo de reconocimiento | Ideas del personal de ventas, logística y tecnología | Programa de reconocimiento y recompensas (APO07.04) | Percepciones y retroalimentación de las partes interesadas sobre la innovación | Carlos Méndez López (Gerente General); apoyan Roberto José Gutiérrez (Jefe de Ventas) y José Francisco Pérez (Logística) |
+<<END TABLE>>
+El plan de innovación de DHM es un documento de pocas páginas que fija objetivos, tolerancia al riesgo y un monto máximo para experimentar dentro de la contingencia del presupuesto de I&T. Luis Antonio Ramírez lo redacta y Carlos Méndez lo aprueba en el CDC. Paralelamente se abre un canal de ideas en Jira para que vendedores, conductores y personal técnico puedan proponer mejoras, y se define un reconocimiento simple, como mencionar públicamente al autor de la idea implementada. Esta combinación de plan, canal y reconocimiento responde a la resistencia cultural identificada en D4 y da a la innovación un lugar visible en la agenda de la empresa (ISACA, 2018b, APO04.01).
+Fuente: ISACA (2018b, APO04.01).
+[Heading3] APO04.02 — Mantener un entendimiento del entorno de la empresa
+Descripción oficial: Trabajar con las partes interesadas pertinentes para entender sus desafíos. Mantener una comprensión adecuada de la estrategia de la empresa y del entorno competitivo y de otras restricciones, de forma que se puedan identificar las oportunidades habilitadas por las nuevas tecnologías.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Mantener conocimiento de los motivadores del negocio, la estrategia y los retos operativos actuales para identificar tecnologías de valor agregado | Estrategia empresarial y análisis FODA (fuera de COBIT) | Oportunidades de innovación relacionadas con los motivadores empresariales (APO02.01) | Porcentaje de iniciativas con vínculo claro a un objetivo empresarial | Luis Antonio Ramírez (Líder Técnico); consultan Carlos Méndez López (Gerente General) |
+| Actualizar el vínculo entre el FODA (por ejemplo O3, digitalización de pymes) y las ideas del registro | FODA verificado de DHM; registro de ideas | Lista priorizada de oportunidades para el CDC | Porcentaje de oportunidades habilitadas por nuevas tecnologías identificadas | Luis Antonio Ramírez (Líder Técnico); consultan Roberto José Gutiérrez (Jefe de Ventas) y José Francisco Pérez (Logística) |
+<<END TABLE>>
+Innovar sin entender el negocio produce tecnología sin uso. En DHM, Luis Antonio Ramírez conversa periódicamente con Roberto José Gutiérrez y José Francisco Pérez para identificar cuellos de botella en pedidos, rutas, cobranzas o devoluciones, y los relaciona con el FODA aprobado por el CDC, especialmente con la oportunidad O3 de digitalización. El resultado es una lista corta de oportunidades vinculadas a objetivos estratégicos, no una colección de ideas tecnológicas aisladas. Esta lista alimenta el registro de ideas y sirve de insumo para el plan de innovación. Las conversaciones se realizan antes de cada sesión trimestral del CDC y sus conclusiones quedan registradas en Confluence (ISACA, 2018b, APO04.02).
+Fuente: ISACA (2018b, APO04.02).
+[Heading3] APO04.03 — Monitorizar y explorar el entorno tecnológico
+Descripción oficial: Implementar una vigilancia tecnológica para monitorizar y explorar sistemáticamente el entorno externo de la empresa para identificar las tecnologías emergentes que tengan el potencial de crear valor. Monitorizar el mercado, el entorno competitivo, los sectores de la industria y las tendencias legales y regulatorias para poder analizar las tecnologías emergentes o las ideas de innovación en el contexto empresarial.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Entender el apetito y el potencial de innovación de DHM y centrar los esfuerzos en las tecnologías más oportunas | Plan de innovación; tecnologías emergentes (fuera de COBIT) | Análisis de investigación de las posibilidades de innovación (BAI03.01) | Frecuencia de la investigación y exploración del entorno | Luis Antonio Ramírez (Líder Técnico) |
+| Realizar una vigilancia trimestral en fuentes definidas (sitios, revistas, eventos) y captar ideas del personal técnico | Fuentes de vigilancia acordadas; ideas del equipo técnico | Informe trimestral de vigilancia tecnológica | Porcentaje de partes interesadas satisfechas con los esfuerzos de monitoreo | Luis Antonio Ramírez (Líder Técnico); recibe el CDC |
+<<END TABLE>>
+La vigilancia tecnológica en DHM es liviana y regular. Cada trimestre, Luis Antonio Ramírez revisa un conjunto acotado de fuentes previamente acordadas, como sitios especializados, comunidades de Django y PostgreSQL, y novedades del sector de distribución, y resume en una o dos páginas lo que podría afectar al negocio. Se enfoca en tecnologías que resuelvan problemas ya identificados, evitando la dispersión. Cuando el tema lo justifica, consulta a la Ing. Marcela Rivas o a otro experto externo. El informe se presenta en el CDC y sus hallazgos se registran como ideas para evaluar. La regularidad importa más que la extensión del informe (ISACA, 2018b, APO04.03).
+Fuente: ISACA (2018b, APO04.03).
+[Heading3] APO04.04 — Evaluar el potencial de las tecnologías emergentes y las ideas de innovación
+Descripción oficial: Analizar las tecnologías emergentes identificadas y/u otras sugerencias de innovación en I&T para comprender su potencial empresarial. Trabajar con las partes interesadas para validar las suposiciones sobre el potencial de nuevas tecnologías e innovación.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Evaluar cada idea considerando madurez, riesgo (incluidas implicaciones legales), encaje con el sistema propio de DHM y potencial de valor | Análisis de investigación (APO04.03); registro de ideas | Evaluación de las iniciativas de innovación (BAI03.01) | Porcentaje de iniciativas implementadas que logran los beneficios previstos | Luis Antonio Ramírez (Líder Técnico); validan Roberto José Gutiérrez (Jefe de Ventas) y José Francisco Pérez (Logística) |
+| Definir, para las ideas seleccionadas, el alcance de una prueba de concepto con resultados esperados, presupuesto, plazo y responsable | Evaluación de la idea; presupuesto de referencia del plan de innovación | Alcance de la prueba de concepto y caso de negocio (APO05.02; APO06.02) | Porcentaje de pruebas de concepto exitosas | Luis Antonio Ramírez (Líder Técnico); aprueba Carlos Méndez López (Gerente General) |
+<<END TABLE>>
+Cada idea del registro se evalúa con una lista de verificación breve: problema que resuelve, beneficio esperado, riesgo, encaje con el software de DHM, esfuerzo y costo. Luis Antonio Ramírez realiza el análisis y valida sus supuestos con el líder del área afectada, sea Roberto José Gutiérrez o José Francisco Pérez. Para las ideas más prometedoras se redacta el alcance de una prueba de concepto de corta duración, con presupuesto máximo y criterio de éxito claros, que Carlos Méndez aprueba en el CDC. Esta filtración evita que el equipo pequeño se sobrecargue con desarrollos de bajo valor y asegura que cada prueba responda a una necesidad real del negocio (ISACA, 2018b, APO04.04).
+Fuente: ISACA (2018b, APO04.04).
+[Heading3] APO04.05 — Recomendar iniciativas adicionales apropiadas
+Descripción oficial: Evaluar y monitorizar los resultados de las iniciativas de prueba de concepto y, si son favorables, generar recomendaciones para más iniciativas. Obtener el apoyo de las partes interesadas.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Documentar los resultados de cada prueba de concepto con sus lecciones y una recomendación de continuar, ajustar o cerrar | Comprobación de resultados de la prueba (interna); alcance aprobado | Resultados y recomendación de iniciativas de prueba de concepto (APO02.03; BAI03.09) | Número de pruebas de concepto evaluadas y aprobadas para implementación | Luis Antonio Ramírez (Líder Técnico); revisa Ana María Sandoval (PQA) |
+| Comunicar al CDC y a los interesados las recomendaciones y las razones de las pruebas rechazadas | Resultados de la prueba; opiniones de los usuarios involucrados | Análisis de iniciativas rechazadas (APO02.03; BAI03.08) | Número de pruebas de concepto respaldadas con inversión real | Carlos Méndez López (Gerente General) decide; comunica Luis Antonio Ramírez (Líder Técnico) |
+<<END TABLE>>
+Al finalizar cada prueba de concepto, Luis Antonio Ramírez elabora un informe corto que compara resultados con los criterios de éxito y recomienda continuar, ajustar o cerrar. Ana María Sandoval revisa que la evaluación sea objetiva y que los datos respalden las conclusiones. El CDC analiza la recomendación y Carlos Méndez decide si se financia una iniciativa mayor, tomando en cuenta el presupuesto disponible. También se documentan las razones de las pruebas rechazadas, porque explican por qué una idea no era adecuada y evitan repetirla sin nueva información. Esta práctica se aborda en su forma mínima: un informe, una decisión y un registro (ISACA, 2018b, APO04.05).
+Fuente: ISACA (2018b, APO04.05).
+[Heading3] APO04.06 — Supervisar la implementación y el uso de la innovación
+Descripción oficial: Supervisar la implementación y el uso de las tecnologías emergentes y las innovaciones durante la adopción, integración, y todo el ciclo de vida económico para garantizar que se obtengan los beneficios prometidos y para identificar las lecciones aprendidas.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Captar las lecciones aprendidas y las oportunidades de mejora de cada innovación implementada | Evaluación de resultados de pruebas; retroalimentación de usuarios | Evaluaciones del uso de estrategias innovadoras (APO02.04; BAI03.02) | Número de lecciones aprendidas y oportunidades de mejora captadas | Luis Antonio Ramírez (Líder Técnico); consulta Ana María Sandoval (PQA) |
+| Comprobar que la innovación siga alineada con la estrategia y ajustar el plan de innovación cuando sea necesario | Plan de innovación; indicadores en Power BI | Evaluación de beneficios de innovación (APO05.03); ajuste de los planes de innovación | Aumento de competitividad o cuota atribuible a las innovaciones | Carlos Méndez López (Gerente General); propone Luis Antonio Ramírez (Líder Técnico) |
+<<END TABLE>>
+Una innovación solo es valiosa si se usa y produce el beneficio prometido. Tras implementar una mejora, Luis Antonio Ramírez mide en Power BI los indicadores definidos en la prueba de concepto y conversa con los usuarios para conocer su experiencia. Las lecciones aprendidas se registran en Confluence y se presentan en el CDC, que decide si el plan de innovación necesita ajustes. Este seguimiento también permite a Carlos Méndez comprobar si la inversión realizada generó el retorno esperado. Para DHM esta práctica es una versión mínima del seguimiento posterior, suficiente para aprender de cada experiencia y evitar repetir errores en futuras pruebas (ISACA, 2018b, APO04.06).
+Fuente: ISACA (2018b, APO04.06).
+[Heading2] Síntesis del objetivo APO04
+APO04 lleva a DHM de la ausencia de un método de innovación (nivel 0) a un proceso gestionado de nivel 2. Con un plan breve, un registro de ideas en Jira, una vigilancia tecnológica trimestral, criterios de evaluación y pruebas de concepto acotadas y aisladas en Docker, la empresa puede aprovechar su software propio y la oportunidad de digitalización (O3) sin sobrecargar a un equipo pequeño (D2). La participación temprana de ventas y logística, con reconocimiento visible, atiende la resistencia cultural (D4). Todo se financia con la contingencia del presupuesto y las herramientas ya previstas.

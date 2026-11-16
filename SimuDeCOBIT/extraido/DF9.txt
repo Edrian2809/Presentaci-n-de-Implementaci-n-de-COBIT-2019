@@ -1,0 +1,347 @@
+[Ttulo1] BAI03 — Gestión de la Identificación y Construcción de Soluciones
+[Ttulo2] Justificación de activación
+El Factor de Diseño 9 (Métodos de Implementación) activa el objetivo BAI03 con una importancia relativa de +65 (ISACA, 2018c). El diagnóstico de DHM establece un reparto híbrido de 50 % ágil, 10 % DevOps y 40 % tradicional (Universidad Nacional de Ingeniería, 2026), combinación que exige un proceso formal de construcción de soluciones con criterios de aceptación documentados. ISACA (2018b, BAI03) define el propósito del objetivo como la construcción de soluciones que satisfagan los requisitos del negocio mediante el diseño, desarrollo, prueba y mantenimiento de componentes de forma controlada. DHM desarrolla software propio en Python, Django y PostgreSQL con Clean Architecture, pero su proceso es informal: carece de plan de proyecto formal (brecha B1) y de un rol independiente de aseguramiento de calidad (brecha B7) (Universidad Nacional de Ingeniería, 2026, Fase 1). El rol de TI de DHM es de tipo fábrica, con alta dependencia operativa (McFarlan et al., 1983). El Anexo C respalda parcialmente la activación: presupuesta Jira Software Cloud Premium (USD 1,200) y SonarQube Developer Edition (USD 1,500), herramientas de seguimiento por sprint y de calidad de código, dentro de un total de USD 5,520 (Universidad Nacional de Ingeniería, 2026, Anexo C).
+[Ttulo2] Componente 1 — Procesos
+[Ttulo3] ¿Cuáles son los impulsores?
+El reparto híbrido de métodos de implementación de DHM (50 % ágil, 10 % DevOps y 40 % tradicional), activado por el Factor de Diseño 9, exige un proceso formal de construcción de soluciones con criterios de aceptación documentados (ISACA, 2018c). A ello se suman la ausencia de plan de proyecto formal (B1) y de un rol independiente de calidad (B7) (Universidad Nacional de Ingeniería, 2026, Fase 1).
+[Ttulo3] ¿Dónde estamos ahora?
+El proceso de desarrollo de DHM es informal: no existen criterios de aceptación formales ni documentación de diseño, aunque el sistema cuenta con Clean Architecture y pruebas unitarias con cobertura estimada igual o superior al 70 % (Universidad Nacional de Ingeniería, 2026, Fase 1). El nivel de capacidad actual de BAI03 es 1 (Realizado): el propósito se cumple sin gestión planificada (ISACA, 2018a).
+[Ttulo3] ¿Dónde queremos estar?
+Un proceso BAI03 documentado y gestionado, con diseños de alto nivel y detallados aprobados, criterios de aceptación por historia de usuario, seguimiento por sprint y Definition of Done aplicada. El nivel de capacidad objetivo es 2 (Gestionado) (ISACA, 2018a; ISACA, 2018b, BAI03). La meta operativa es 100 % de historias con criterios de aceptación y cobertura de pruebas de al menos 70 %.
+[Ttulo3] ¿Qué se necesita hacer?
+Se requiere documentar las prácticas BAI03.01 a BAI03.12, definir plantillas de diseño y de criterios de aceptación, formalizar la Definition of Done y establecer el procedimiento de control de calidad con la Responsable PQA. Las actividades de Nivel 2 se concentran en BAI03.01, BAI03.02, BAI03.03, BAI03.05, BAI03.07, BAI03.08 y BAI03.10; las cinco prácticas restantes se incluyen por completitud, con la debida aclaración (ISACA, 2018b, BAI03).
+[Ttulo3] ¿Cómo llegamos allí?
+Se realizará un taller con el equipo de desarrollo, guiado por la consultora externa, para acordar las plantillas, que se crearán en Confluence, herramienta por evaluar por no figurar en el Anexo C (Universidad Nacional de Ingeniería, 2026, Anexo C). El equipo recibirá capacitación en metodologías ágiles y el CDC aprobará los productos en sesiones temáticas de calidad de software (Universidad Nacional de Ingeniería, 2026, Anexo B; ISACA, 2018b, BAI03).
+[Ttulo3] ¿Llegamos?
+Se verificará que todas las historias de usuario del sprint tengan criterios de aceptación documentados, que los diseños estén aprobados y que existan informes de pruebas ejecutadas con cobertura de al menos 70 %. La Responsable PQA contrastará la evidencia con las métricas de Nivel 2 y presentará el resultado al CDC, que dejará constancia en acta (ISACA, 2018d, Fase 6; Universidad Nacional de Ingeniería, 2026, Anexo B).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+El Nivel 2 se sostendrá con la revisión de plantillas y de la Definition of Done al cierre de cada sprint, la actualización de los criterios de aceptación cuando cambien los requisitos y auditorías de calidad de proceso a cargo de la Responsable PQA, informadas al CDC en sus sesiones mensuales (ISACA, 2018d, Fase 7; Universidad Nacional de Ingeniería, 2026, Anexo B).
+Tabla 1
+Alcance de las 12 prácticas de BAI03 en el Nivel 2
+<<TABLE>>
+| Código | Práctica | Actividades de Nivel 2 | Tratamiento en este documento |
+| BAI03.01 | Diseño de soluciones de alto nivel | Sí | Desarrollo completo con tabla |
+| BAI03.02 | Diseñar componentes detallados para la solución | Sí | Desarrollo completo con tabla |
+| BAI03.03 | Desarrollar los componentes de la solución | Sí | Desarrollo completo con tabla |
+| BAI03.04 | Adquirir los componentes de la solución | No | Incluida por completitud |
+| BAI03.05 | Construir soluciones | Sí | Desarrollo completo con tabla |
+| BAI03.06 | Realizar el aseguramiento de calidad (QA) | No | Incluida por completitud |
+| BAI03.07 | Preparar las pruebas de la solución | Sí | Desarrollo completo con tabla |
+| BAI03.08 | Ejecutar las pruebas de la solución | Sí | Desarrollo completo con tabla |
+| BAI03.09 | Gestionar los cambios a los requisitos | No | Incluida por completitud |
+| BAI03.10 | Mantener las soluciones | Sí | Desarrollo completo con tabla |
+| BAI03.11 | Definir productos y servicios de TI y mantener el portafolio de servicios | No | Incluida por completitud |
+| BAI03.12 | Diseñar soluciones conforme a la metodología de desarrollo definida | No | Incluida por completitud |
+<<END TABLE>>
+Nota. La columna «Actividades de Nivel 2» indica si ISACA (2018b) asigna al menos una actividad a ese nivel de capacidad. Fuente: ISACA (2018b, BAI03.01–BAI03.12).
+Síntesis del componente. El proceso BAI03 de DHM parte de un desarrollo informal con buenas bases técnicas (Clean Architecture y pruebas unitarias) y debe documentarse hasta el Nivel 2. La documentación de las siete prácticas con actividades de Nivel 2, las plantillas de criterios de aceptación y el procedimiento de control de calidad constituyen el núcleo de la intervención. La verificación y el sostenimiento recaen en la Responsable PQA y en el CDC.
+Trazabilidad: DF9 → BAI03 → Componente 1 (Procesos) → BAI03.01–BAI03.12 → ISACA (2018b, BAI03); ISACA (2018c).
+[Ttulo2] Componente 2 — Estructuras Organizativas
+[Ttulo3] ¿Cuáles son los impulsores?
+El Factor de Diseño 9 y la brecha B7 exigen definir quién diseña, quién construye y quién verifica. BAI03 requiere roles de arquitectura, desarrollo y aseguramiento de calidad diferenciados, de modo que quien construye no sea quien certifica la calidad (ISACA, 2018b, BAI03; Universidad Nacional de Ingeniería, 2026, Fase 1, B7).
+[Ttulo3] ¿Dónde estamos ahora?
+El equipo de desarrollo es reducido: Luis Antonio Ramírez, Desarrollador Senior y Líder Técnico, y Ana María Sandoval, desarrolladora con perfil de auditor y Responsable de Calidad (PQA) (Universidad Nacional de Ingeniería, 2026, Anexo B). No existe una asignación formal de responsabilidades por actividad de BAI03; el nivel de capacidad actual es 1.
+[Ttulo3] ¿Dónde queremos estar?
+Roles formalizados mediante matriz RACI: el Líder Técnico como arquitecto de la solución, la Responsable PQA como responsable de calidad, el Jefe de Ventas y el Representante de Logística como representantes del negocio en la aceptación, y el CDC como órgano de aprobación (Universidad Nacional de Ingeniería, 2026, Anexo B; ISACA, 2018b, BAI03).
+[Ttulo3] ¿Qué se necesita hacer?
+Asignar formalmente el rol de arquitecto al Líder Técnico y el de responsable de calidad a la Responsable PQA, aprobar la matriz RACI en el CDC y registrar las responsabilidades. La estructura clave de BAI03 incluye jefe de desarrollo y gestor de proyecto (ISACA, 2018b, BAI03), roles que DHM concentra en el Líder Técnico.
+[Ttulo3] ¿Cómo llegamos allí?
+La matriz RACI se elaborará en el taller con el equipo de desarrollo, se validará con la consultora externa y se aprobará en una sesión del CDC. La Responsable PQA mantendrá independencia respecto de las actividades de construcción que verifica, y el Gerente General ratificará los roles (Universidad Nacional de Ingeniería, 2026, Anexo B).
+[Ttulo3] ¿Llegamos?
+Se comprobará que la matriz RACI conste aprobada en acta del CDC, que cada actividad tenga un único responsable último y que la Responsable PQA figure como responsable de la verificación de calidad, sin revisar código de su propia autoría (ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+La matriz se revisará al inicio de cada sprint y cuando cambie la composición del equipo. La cobertura de respaldo del Líder Técnico se gestionará junto con APO07 mediante roles de reemplazo, y las modificaciones se aprobarán en el CDC (ISACA, 2018d, Fase 7).
+Tabla 2
+Matriz RACI de las actividades de BAI03
+<<TABLE>>
+| Actividad | Gerente General | Líder Técnico | Responsable PQA | Jefe de Ventas | Repr. Logística | CDC |
+| Definir el diseño de alto nivel (BAI03.01) | C | A/R | C | C | C | I |
+| Diseñar componentes detallados (BAI03.02) | I | A/R | C | I | I | I |
+| Desarrollar componentes (BAI03.03) | I | A/R | C | I | I | I |
+| Construir soluciones (BAI03.05) | I | A/R | C | C | C | I |
+| Preparar pruebas (BAI03.07) | I | R | A/R | C | C | I |
+| Ejecutar pruebas (BAI03.08) | I | R | A | R | R | I |
+| Mantener soluciones (BAI03.10) | C | A/R | C | C | C | I |
+<<END TABLE>>
+Nota. R = responsable; A = responsable último (aprueba); C = consultado; I = informado. La consultora externa (Ing. Marcela Rivas) actúa como asesora sin voto y no se incluye en la matriz. Fuente: Elaboración propia con base en ISACA (2018b, BAI03) y Universidad Nacional de Ingeniería, 2026, Anexo B.
+Síntesis del componente. La estructura de BAI03 se resuelve con los roles ya existentes en el Anexo B, sin crear nuevos órganos. El Líder Técnico asume la arquitectura y la construcción, la Responsable PQA la verificación independiente y el CDC la aprobación. La matriz RACI deja una única autoridad por actividad y prepara la cobertura de respaldo tratada en APO07.
+Trazabilidad: DF9 → BAI03 → Componente 2 (Estructuras Organizativas) → BAI03.01, .02, .03, .05, .07, .08, .10 → ISACA (2018b, BAI03); Universidad Nacional de Ingeniería (2026, Anexo B).
+[Ttulo2] Componente 3 — Políticas y Procedimientos
+[Ttulo3] ¿Cuáles son los impulsores?
+El estándar de diseño y codificación es un insumo obligatorio de BAI03.01 y BAI03.03; sin política, las decisiones dependen del criterio individual. Las políticas también respaldan el tratamiento de la brecha B2, gestión de configuración informal (ISACA, 2018b, BAI03; Universidad Nacional de Ingeniería, 2026, Fase 1).
+[Ttulo3] ¿Dónde estamos ahora?
+DHM aplica Clean Architecture y mantiene pruebas unitarias, pero no cuenta con una política de desarrollo de software aprobada. El Anexo F establece la política de gestión de configuración y control de cambios, documento distinto de una política de desarrollo (Universidad Nacional de Ingeniería, 2026, Anexo F).
+[Ttulo3] ¿Dónde queremos estar?
+Una política de desarrollo de software aprobada por el CDC, que establezca principios de Clean Architecture y SOLID, estándares de codificación, revisión de código por pares y criterios de aceptación, más un procedimiento de control de calidad operado por la Responsable PQA (ISACA, 2018b, BAI03.01, BAI03.03, BAI03.08).
+[Ttulo3] ¿Qué se necesita hacer?
+Redactar la política y el procedimiento de control de calidad, vincularlos con la política de gestión de configuración del Anexo F, definir la plantilla de Definition of Done y obtener la aprobación del CDC y del Gerente General. Los documentos se versionarán en el repositorio documental (Universidad Nacional de Ingeniería, 2026, Anexos B y F).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico redactará la política y la Responsable PQA el procedimiento de control de calidad, con acompañamiento de la consultora externa. Se socializarán en un taller y se formalizarán mediante la firma digital de actas del CDC (Universidad Nacional de Ingeniería, 2026, Anexo B; ISACA, 2018b, BAI03).
+[Ttulo3] ¿Llegamos?
+Se comprobará que la política y el procedimiento estén aprobados y vigentes, que el equipo de desarrollo los conozca y que las revisiones de código y las inspecciones de calidad dejen registro. La evidencia se presentará al CDC (ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+Las políticas se revisarán una vez al año y cuando el CDC lo requiera. El cumplimiento de la revisión de código se verificará por sprint y las excepciones se registrarán y resolverán con el Líder Técnico, dejando constancia en el acta correspondiente (ISACA, 2018d, Fase 7).
+Tabla 3
+Políticas y procedimientos del objetivo BAI03
+<<TABLE>>
+| Política | Propósito | Estado | Aprobador |
+| Política de desarrollo de software (Clean Architecture, SOLID, estándares de codificación, revisión de código, criterios de aceptación) | Uniformar el diseño y la construcción de soluciones | Por elaborar | CDC, con ratificación del Gerente General |
+| Procedimiento de control de calidad | Definir verificaciones, registro y corrección de excepciones de calidad | Por elaborar | CDC |
+| Plantilla de criterios de aceptación y Definition of Done | Establecer el criterio de cierre de cada historia de usuario | Por elaborar | CDC |
+| Política de gestión de configuración y control de cambios | Controlar versiones, líneas base y cambios | Definida (Anexo F) | Según Anexo F |
+<<END TABLE>>
+Nota. El estado «Por elaborar» indica que el documento no existe aún en el caso DHM. Fuente: Elaboración propia con base en ISACA (2018b, BAI03) y Universidad Nacional de Ingeniería, 2026, Anexos B y F.
+Síntesis del componente. DHM dispone de una política de configuración, pero no de una política que regule cómo se diseña, codifica, revisa y acepta el software. La política de desarrollo y el procedimiento de control de calidad completan el marco normativo mínimo del Nivel 2. Su aprobación por el CDC y su revisión anual aseguran vigencia y trazabilidad.
+Trazabilidad: DF9 → BAI03 → Componente 3 (Políticas y Procedimientos) → BAI03.01, .03, .08 → ISACA (2018b, BAI03); Universidad Nacional de Ingeniería (2026, Anexo F).
+[Ttulo2] Componente 4 — Flujos de Información
+[Ttulo3] ¿Cuáles son los impulsores?
+BAI03 recibe requisitos y criterios de aceptación de BAI02 y entrega especificaciones de diseño, componentes, planes de prueba y resultados a BAI07 y BAI04 (ISACA, 2018b, BAI03). Sin flujos definidos, los requisitos no se traducen en diseños verificables ni en evidencia de pruebas.
+[Ttulo3] ¿Dónde estamos ahora?
+Los requisitos, diseños y resultados de prueba se gestionan de manera informal, sin repositorio de diseño, salvo los reportes de cobertura generados por las pruebas automatizadas (Universidad Nacional de Ingeniería, 2026, Fase 1). La trazabilidad entre requisito, código y prueba no está formalizada. Nivel de capacidad actual: 1.
+[Ttulo3] ¿Dónde queremos estar?
+Flujos documentados entre las prácticas de Nivel 2, con entradas y salidas identificadas, almacenados en un repositorio centralizado con control de versiones y con destinatarios definidos para cada producto de trabajo: equipo de desarrollo, equipo de QA y Responsable PQA (ISACA, 2018b, BAI03).
+[Ttulo3] ¿Qué se necesita hacer?
+Definir el formato de cada producto de trabajo (diseño de alto nivel, diseño detallado, plan de pruebas, informe de calidad, plan de mantenimiento), establecer el repositorio documental y asociar cada historia de usuario en Jira con su diseño y sus pruebas (ISACA, 2018b, BAI03; Universidad Nacional de Ingeniería, 2026, Anexo C).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico configurará en Jira los estados de las historias de usuario y su vínculo con los commits del repositorio; la Responsable PQA definirá la plantilla del informe de calidad. La consultora externa validará los flujos en un taller inicial y el CDC los aprobará (Universidad Nacional de Ingeniería, 2026, Anexos B y C).
+[Ttulo3] ¿Llegamos?
+Se comprobará que cada historia de usuario del sprint tenga enlazados diseño, criterios de aceptación, pruebas y resultado, y que los informes de calidad lleguen a la Responsable PQA. Una muestra de historias se revisará en el CDC (ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+Los flujos se revisarán al cierre de cada sprint para detectar productos de trabajo no entregados o sin destinatario, y las plantillas se ajustarán cuando corresponda. La Responsable PQA informará al CDC en sus sesiones mensuales (ISACA, 2018d, Fase 7).
+Tabla 4
+Flujos de información de las prácticas de BAI03
+<<TABLE>>
+| Práctica | Entradas | Salidas | Destino |
+| BAI03.01 | Requisitos y criterios de aceptación confirmados por las partes interesadas | Diseño de alto nivel | Equipo de desarrollo |
+| BAI03.02 | Diseño de alto nivel | Diseño detallado | Desarrolladores |
+| BAI03.03 | Diseño detallado aprobado | Componentes de la solución documentados | Equipo de desarrollo |
+| BAI03.05 | Componentes de la solución documentados | Componentes de la solución integrados y configurados | Equipo de desarrollo y equipo de QA |
+| BAI03.06 | Código y criterios de aceptación | Informe de calidad | Responsable PQA |
+| BAI03.07 | Diseño detallado | Plan de pruebas | Equipo de QA |
+| BAI03.08 | Plan de pruebas | Resultados de pruebas | Responsable PQA |
+| BAI03.10 | Solicitudes de mantenimiento | Plan de mantenimiento | Equipo de desarrollo |
+<<END TABLE>>
+Nota. Las filas BAI03.03 y BAI03.05 se añaden a las prácticas base para cubrir las prácticas con actividades de Nivel 2; BAI03.06 se incluye por ser un flujo de calidad clave, aunque sus actividades no correspondan a Nivel 2. Fuente: Elaboración propia con base en ISACA (2018b, BAI03), sección de flujos y elementos de información.
+Síntesis del componente. Los flujos de BAI03 conectan requisitos, diseño, construcción, pruebas y mantenimiento mediante productos de trabajo con destinatario definido. En DHM, Jira y el repositorio de código permiten materializar esa trazabilidad sin recursos adicionales. La Responsable PQA concentra los informes de calidad y de pruebas, y el CDC recibe la evidencia consolidada.
+Trazabilidad: DF9 → BAI03 → Componente 4 (Flujos de Información) → BAI03.01, .02, .03, .05, .06, .07, .08, .10 → ISACA (2018b, BAI03).
+[Ttulo2] Componente 5 — Cultura, Ética y Comportamiento
+[Ttulo3] ¿Cuáles son los impulsores?
+La construcción de soluciones depende de una cultura de calidad y colaboración. La resistencia cultural al cambio del personal de ventas y conductores (D4) afecta la adopción de criterios de aceptación y la participación en pruebas (Universidad Nacional de Ingeniería, 2026, FODA, D4; Kotter, 2012).
+[Ttulo3] ¿Dónde estamos ahora?
+Las pruebas unitarias existen, pero la calidad no se verifica de forma independiente ni se reconoce, y los usuarios del negocio carecen de un rol definido en la validación (Universidad Nacional de Ingeniería, 2026, Fase 1). La resistencia al cambio del personal operativo (D4) limita la aceptación de nuevos procedimientos.
+[Ttulo3] ¿Dónde queremos estar?
+Una cultura de calidad y colaboración en la que la Definition of Done sea una práctica aceptada, los usuarios del negocio participen en la aceptación y el código de calidad se reconozca. Los comportamientos esperados se alinean con la gestión del cambio (Hiatt, 2006; ISACA, 2018b, BAI03).
+[Ttulo3] ¿Qué se necesita hacer?
+Comunicar por qué se exigen criterios de aceptación, involucrar a Ventas y Logística en la validación y ejecutar acciones concretas: talleres de calidad, retrospectivas por sprint y reconocimiento del código de calidad (Kotter, 2012; Universidad Nacional de Ingeniería, 2026, FODA, D4).
+[Ttulo3] ¿Cómo llegamos allí?
+Se realizarán talleres de calidad con el equipo y los representantes del negocio, retrospectivas al cierre de cada sprint y un reconocimiento periódico al código que cumpla la Definition of Done, otorgado por el CDC. El Gerente General patrocinará visiblemente estas acciones (Kotter, 2012; Hiatt, 2006).
+[Ttulo3] ¿Llegamos?
+Se verificará la asistencia a los talleres, la realización de las retrospectivas de cada sprint y la participación de Ventas y Logística en las pruebas de aceptación. El CDC revisará los registros correspondientes (ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+El Gerente General reiterará el mensaje de calidad en las sesiones del CDC, las retrospectivas se realizarán en cada sprint y se mantendrá el reconocimiento al código de calidad. Los logros se comunicarán a toda la organización (Universidad Nacional de Ingeniería, 2026, Anexo B; ISACA, 2018d, Fase 7).
+Síntesis del componente. La cultura de calidad de DHM debe construirse entre el equipo técnico y el personal operativo, cuya resistencia al cambio (D4) es el principal riesgo de adopción. Los talleres, las retrospectivas y el reconocimiento del código de calidad son acciones proporcionales al tamaño de la empresa. El patrocinio del Gerente General y la comunicación desde el CDC sostienen los comportamientos esperados.
+Trazabilidad: DF9 → BAI03 → Componente 5 (Cultura, Ética y Comportamiento) → BAI03.01, .08 → ISACA (2018b, BAI03); Kotter (2012); Hiatt (2006).
+[Ttulo2] Componente 6 — Personas, Habilidades y Competencias
+[Ttulo3] ¿Cuáles son los impulsores?
+El mantenimiento de una arquitectura Clean, con pruebas automatizadas e integración continua, exige competencias técnicas específicas. Además, el Nivel 2 requiere que la revisión de diseño y la verificación de calidad estén a cargo de personas capacitadas (ISACA, 2018b, BAI03; SFIA Foundation, 2015).
+[Ttulo3] ¿Dónde estamos ahora?
+Según el Anexo G, el Líder Técnico registra conocimiento de pruebas de 5 sobre 5 y la Responsable PQA de 4 sobre 5, mientras que el Jefe de Ventas y el Representante de Logística registran 1 (Universidad Nacional de Ingeniería, 2026, Anexo G). Las competencias en Python, Django y CI/CD no figuran en dicho anexo.
+[Ttulo3] ¿Dónde queremos estar?
+Competencias requeridas identificadas y evaluadas frente al marco SFIA para los códigos PROG, TEST, DESN, ARCH y DLMG, con brechas registradas y plan de capacitación aprobado. El resultado esperado es evidencia documentada de competencia, propia del Nivel 2 (SFIA Foundation, 2015; ISACA, 2018b, BAI03).
+[Ttulo3] ¿Qué se necesita hacer?
+Evaluar formalmente las competencias del equipo en Python y Django, arquitectura Clean, pruebas con pytest y cobertura, e integración continua con GitLab CI; registrar las brechas y elaborar un plan de capacitación en Clean Architecture, pruebas automatizadas y CI/CD (SFIA Foundation, 2015; Tobón, 2013).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico y la Responsable PQA autoevaluarán sus competencias y la consultora externa las validará. Las capacitaciones se programarán siguiendo el plan trimestral del Anexo G y se registrará su cumplimiento (Universidad Nacional de Ingeniería, 2026, Anexo G; Tobón, 2013).
+[Ttulo3] ¿Llegamos?
+Se verificará que la matriz de competencias esté actualizada, que las capacitaciones programadas se hayan ejecutado con registro de asistencia y que las brechas críticas tengan una acción asignada. La verificación se presentará al CDC para su registro en acta (ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+La matriz de competencias de BAI03 se actualizará cada semestre, en coordinación con APO07.03, y el plan de capacitación se ajustará según los resultados de las revisiones de calidad y las brechas detectadas (ISACA, 2018d, Fase 7; ISACA, 2018b, APO07.03).
+Tabla 5
+Competencias SFIA requeridas para BAI03
+<<TABLE>>
+| Competencia | Código | Nivel actual | Nivel objetivo (2) | Brecha | Acción |
+| Programación y desarrollo de software (Python, Django) | PROG | 1 (Realizado) | 2 | Sin evaluación formal ni registro en el Anexo G | Autoevaluación validada y estándares de codificación |
+| Pruebas (pytest, cobertura) | TEST | 1 (Realizado); Anexo G: pruebas 5/5 (Líder Técnico) y 4/5 (PQA) | 2 | Procedimiento y evidencia de pruebas no documentados | Capacitación en testing automatizado |
+| Diseño de sistemas | DESN | 1 (Realizado) | 2 | Diseños sin documentación formal | Taller de plantillas de diseño |
+| Arquitectura de soluciones (Clean Architecture) | ARCH | 1 (Realizado) | 2 | Decisiones de arquitectura sin registro formal | Capacitación en Clean Architecture |
+| Gestión del desarrollo de sistemas (CI/CD, GitLab CI) | DLMG | 1 (Realizado) | 2 | Tubería de integración continua por implementar | Capacitación en CI/CD |
+<<END TABLE>>
+Nota. Los niveles indican la capacidad del objetivo (1 = Realizado; 2 = Gestionado) y no los niveles de responsabilidad SFIA, que el Anexo G no asigna. Los valores «5/5» y «4/5» provienen de la escala interna del Anexo G. Fuente: Elaboración propia con base en SFIA Foundation (2015), ISACA (2018b, BAI03) y Universidad Nacional de Ingeniería, 2026, Anexo G.
+Síntesis del componente. DHM cuenta con competencias sólidas en pruebas concentradas en dos personas y sin evidencia formal para el resto de las competencias de BAI03. El mapeo SFIA permite ordenar la brecha en cinco áreas y priorizar la capacitación en Clean Architecture, pruebas automatizadas e integración continua. El plan se articula con APO07 para cerrar la dependencia del Líder Técnico.
+Trazabilidad: DF9 → BAI03 → Componente 6 (Personas, Habilidades y Competencias) → BAI03.01, .03, .05, .08 → ISACA (2018b, BAI03); SFIA Foundation (2015); Universidad Nacional de Ingeniería (2026, Anexo G).
+[Ttulo2] Componente 7 — Servicios, Infraestructura y Aplicaciones
+[Ttulo3] ¿Cuáles son los impulsores?
+El Nivel 2 requiere entornos separados de desarrollo y pruebas, control de versiones y ejecución de pruebas (ISACA, 2018b, BAI03.03, BAI03.07, BAI03.08). La arquitectura del sistema, preparada para pruebas e integración continua (F5), facilita esta base (Universidad Nacional de Ingeniería, 2026, FODA, F5).
+[Ttulo3] ¿Dónde estamos ahora?
+DHM desarrolla en Python, Django y PostgreSQL, ejecuta pruebas con pytest y usa Docker; SonarQube Developer Edition figura presupuestado en USD 1,500 (Universidad Nacional de Ingeniería, 2026, Anexo C). GitLab CE y Confluence no figuran en el Anexo C, por lo que su configuración formal para BAI03 está por implementar o evaluar.
+[Ttulo3] ¿Dónde queremos estar?
+Repositorio GitLab CE con ramas y líneas base según el Anexo F, tubería de integración continua con pruebas y análisis estático, SonarQube Developer verificando cobertura y vulnerabilidades, y Jira registrando historias de usuario y criterios de aceptación (Universidad Nacional de Ingeniería, 2026, Anexos C y F).
+[Ttulo3] ¿Qué se necesita hacer?
+Configurar los repositorios y las ramas, definir la tubería de GitLab CI con pytest y SonarQube, establecer puertas de calidad alineadas con la Definition of Done y separar los entornos de desarrollo, pruebas y producción mediante contenedores Docker (ISACA, 2018b, BAI03.03, BAI03.08).
+[Ttulo3] ¿Cómo llegamos allí?
+El Líder Técnico configurará GitLab CE, la tubería y el análisis en SonarQube; la Responsable PQA definirá las puertas de calidad. Confluence se evaluará como repositorio de plantillas antes de su adopción, dado que no está presupuestada (Universidad Nacional de Ingeniería, 2026, Anexo C).
+[Ttulo3] ¿Llegamos?
+Se comprobará que la tubería se ejecute en cada integración, que SonarQube reporte cobertura igual o superior al 70 % y que los entornos estén separados. Las evidencias se extraerán de los registros de GitLab CE y de SonarQube (ISACA, 2018d, Fase 6).
+[Ttulo3] ¿Cómo mantenemos el impulso?
+Se mantendrán vigentes las licencias, cuya vigencia es de 12 meses desde el 1 de abril de 2026, se actualizarán las reglas de SonarQube por sprint y se revisará en el CDC el estado de las herramientas por implementar o evaluar (ISACA, 2018d, Fase 7; Universidad Nacional de Ingeniería, 2026, Anexo C).
+Tabla 6
+Herramientas de soporte de BAI03
+<<TABLE>>
+| Herramienta | Propósito | Estado |
+| GitLab CE | Control de versiones y CI/CD | Por implementar |
+| SonarQube Developer Edition | Calidad de código, cobertura y vulnerabilidades | Presupuestado (Anexo C, USD 1,500) |
+| Jira Software Cloud Premium | Historias de usuario, criterios de aceptación y seguimiento por sprint | Presupuestado (Anexo C, USD 1,200) |
+| Confluence | Plantillas de diseño y de criterios de aceptación | Por evaluar |
+| pytest | Pruebas unitarias y reporte de cobertura | En uso |
+| Docker | Entornos separados de desarrollo y pruebas | En uso |
+<<END TABLE>>
+Nota. GitLab CE y SonarQube Community Edition no figuran como licencia independiente en el Anexo C; se utiliza la Developer Edition presupuestada. «En uso» corresponde a herramientas sin partida en el Anexo C. Fuente: Elaboración propia con base en Universidad Nacional de Ingeniería, 2026, Anexo C, y en ISACA (2018b, BAI03).
+Síntesis del componente. La infraestructura de BAI03 aprovecha lo ya existente (Python, Django, pytest, Docker) y lo presupuestado (Jira y SonarQube Developer). GitLab CE y Confluence quedan por implementar y por evaluar, respectivamente, sin asignarles presupuesto. La configuración de la tubería y de las puertas de calidad materializa la Definition of Done.
+Trazabilidad: DF9 → BAI03 → Componente 7 (Servicios, Infraestructura y Aplicaciones) → BAI03.03, .05, .07, .08 → ISACA (2018b, BAI03); Universidad Nacional de Ingeniería (2026, Anexo C).
+[Ttulo2] Prácticas de gestión del objetivo BAI03 — Nivel 2
+[Ttulo3] BAI03.01 — Diseño de soluciones de alto nivel
+Descripción oficial: Desarrollar y documentar diseños de alto nivel para la solución en términos de tecnología, procesos de negocio y flujos de trabajo. Usar técnicas de desarrollo por fases o Agile rápido acordadas y apropiadas. Asegurar la alineación con la estrategia de I&T y la arquitectura empresarial. Volver a evaluar y actualizar los diseños cuando se presenten problemas significativos durante las fases de diseño detallado o construcción, o según evolucione la solución. Aplicar un enfoque centrado en el usuario; asegurarse de que las partes interesadas participan activamente en el diseño y la aprobación de cada versión.
+Nivel de capacidad: 2
+Tabla 7
+Actividades de Nivel 2 de BAI03.01
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Establecer la especificación de diseño de alto nivel que traslade la solución propuesta a procesos, servicios, flujos de trabajo, aplicaciones, infraestructura y repositorios | Requisitos y criterios de aceptación; principios de Clean Architecture | Especificación de diseño de alto nivel | Diseños revisados y aprobados por sprint | Líder Técnico |
+| Involucrar a diseñadores con experiencia de usuario y a especialistas de TI en el diseño | Historias de usuario priorizadas | Registro de participación de las partes interesadas | Porcentaje de participación de partes interesadas en el diseño y la aprobación | Líder Técnico; Jefe de Ventas y Representante de Logística |
+| Crear un diseño conforme a los estándares de diseño de la organización | Política de desarrollo de software | Diseño conforme a estándares | Número de deficiencias de la revisión del diseño | Líder Técnico; verificación de Responsable PQA |
+| Tras la aprobación del aseguramiento de calidad, enviar el diseño final a las partes interesadas y al patrocinador para su aprobación | Diseño validado por QA | Especificación de diseño de alto nivel aprobada | Diseños aprobados por sprint | Gerente General (patrocinador); CDC |
+<<END TABLE>>
+Nota. Se presentan únicamente las actividades asignadas a Nivel 2 de capacidad en ISACA (2018b); entradas y salidas se contextualizan al caso DHM. Fuente: Elaboración propia con base en ISACA (2018b, BAI03.01); Universidad Nacional de Ingeniería (2026, Anexos B y G).
+Narrativa: En DHM, el diseño de alto nivel hoy no se documenta, por lo que las decisiones de arquitectura residen en la experiencia del Líder Técnico. A Nivel 2, cada iniciativa del sprint contará con una especificación breve que describa procesos, componentes e interfaces, respetando Clean Architecture y participando el Jefe de Ventas y el Representante de Logística como representantes del negocio. La Responsable PQA revisará el diseño antes de su aprobación por el Gerente General y el CDC. La plantilla se alojará en Confluence, por evaluar, y se ligará a Jira. La métrica de diseños aprobados por sprint evidencia la práctica.
+Fuente: (ISACA, 2018b, BAI03.01)
+[Ttulo3] BAI03.02 — Diseñar componentes detallados para la solución
+Descripción oficial: Desarrollar, documentar y elaborar diseños detallados de forma progresiva. Usar técnicas de desarrollo Agile por fases o rápido acordadas y apropiadas, abordando todos los componentes (procesos de negocio y controles automatizados y manuales relacionados, aplicaciones soportadas por I&T, servicios de infraestructura y productos de tecnología, así como a los socios/proveedores). Asegurarse de que el diseño detallado incluya acuerdos de nivel de servicio (SLA) internos y externos, así como acuerdos de nivel operativo (OLA).
+Nivel de capacidad: 2
+Tabla 8
+Actividades de Nivel 2 de BAI03.02
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Diseñar progresivamente las actividades del proceso de negocio y los flujos de trabajo, incluidas las actividades de control manual | Diseño de alto nivel aprobado | Flujos de trabajo documentados | Deficiencias en la revisión del diseño | Líder Técnico; Jefe de Ventas y Representante de Logística |
+| Diseñar los pasos de procesamiento de la aplicación: tipos de transacción, reglas de negocio, controles automatizados, casos de uso, interfaces externas y limitaciones | Diseño de alto nivel aprobado | Casos de uso y reglas de procesamiento documentados | Cambios de diseño en proceso | Líder Técnico |
+| Clasificar las entradas y salidas de datos, especificar la recopilación de datos fuente y los métodos de validación | Modelo de datos en PostgreSQL | Especificación de datos y validaciones | Deficiencias en la revisión del diseño | Líder Técnico |
+| Diseñar la interfaz del sistema, incluido el intercambio automático de datos | Requisitos de integración | Especificación de interfaces | Deficiencias en la revisión del diseño | Líder Técnico |
+| Diseñar el almacenamiento, la ubicación, la recuperación y los mecanismos de recuperación de datos | Requisitos no funcionales | Diseño de almacenamiento y recuperación | Cambios de diseño en proceso | Líder Técnico |
+| Diseñar la redundancia, la recuperación y las copias de seguridad adecuadas | Requisitos de continuidad | Diseño de respaldo y recuperación | Deficiencias en la revisión del diseño | Líder Técnico |
+<<END TABLE>>
+Nota. Se presentan las seis primeras actividades de la práctica, asignadas a Nivel 2 según la disposición de ISACA (2018b, BAI03.02); las restantes corresponden a niveles superiores. Fuente: Elaboración propia con base en ISACA (2018b, BAI03.02); Universidad Nacional de Ingeniería (2026, Anexos B y G).
+Narrativa: El diseño detallado de DHM aprovecha la arquitectura por capas existente, pero no se registra. A Nivel 2, el Líder Técnico documentará por historia de usuario los flujos de trabajo, las reglas de procesamiento, las validaciones de datos y las interfaces, con el Jefe de Ventas y el Representante de Logística validando los flujos que afectan su operación. La auditoría inmutable del sistema (IP, deltas y usuario) se referencia como control automatizado ya disponible (Universidad Nacional de Ingeniería, 2026, FODA, F2). El diseño se revisa por pares y la métrica de deficiencias por revisión permite verificar su calidad.
+Fuente: (ISACA, 2018b, BAI03.02)
+[Ttulo3] BAI03.03 — Desarrollar los componentes de la solución
+Descripción oficial: Desarrollar progresivamente los componentes de la solución en un entorno independiente, de acuerdo con los diseños detallados siguiendo estándares y requisitos de desarrollo y documentación, de aseguramiento de la calidad (QA) y de aprobación. Asegurarse de que se abordan todos los requisitos de control en los procesos de negocio, las aplicaciones y los servicios de infraestructura soportadas por I&T, servicios y productos de tecnología, y los servicios de socios/proveedores.
+Nivel de capacidad: 2
+Tabla 9
+Actividades de Nivel 2 de BAI03.03
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Desarrollar el diseño detallado propuesto dentro de un entorno separado | Diseño detallado aprobado | Componentes desarrollados en la rama de desarrollo | Excepciones al diseño observadas en la revisión | Líder Técnico |
+| Cuando intervengan terceros, garantizar que mantenimiento, soporte, estándares de desarrollo y licenciamiento cumplan las obligaciones contractuales | Contratos con terceros (Anexos C y E) | Verificación de obligaciones contractuales | Excepciones al diseño observadas en la revisión | Gerente General |
+| Dar seguimiento a las peticiones de cambio y a las revisiones de diseño, desempeño y calidad, con participación de las partes interesadas afectadas | Peticiones de cambio en Jira | Registro de revisiones y cambios | Excepciones al diseño observadas en la revisión | Líder Técnico; Responsable PQA |
+| Documentar los componentes según los estándares y mantener control de versiones de los componentes y de su documentación | Componentes desarrollados | Componentes de la solución documentados y versionados | Diseños detallados documentados | Líder Técnico |
+<<END TABLE>>
+Nota. Se presentan las cuatro primeras actividades de la práctica, asignadas a Nivel 2 según la disposición de ISACA (2018b, BAI03.03). Fuente: Elaboración propia con base en ISACA (2018b, BAI03.03); Universidad Nacional de Ingeniería (2026, Anexos B y G).
+Narrativa: La construcción de componentes en DHM ya se apoya en Clean Architecture; falta el control formal. A Nivel 2, el desarrollo se realizará en ramas separadas del repositorio, con revisión de código por pares, y cada componente se documentará y versionará conforme a la política de gestión de configuración del Anexo F. Las peticiones de cambio se registrarán en Jira y las revisiones de diseño dejarán constancia. Cuando participe un tercero, como la consultora externa (Anexo E), el Gerente General verificará el cumplimiento de sus obligaciones. La métrica de excepciones al diseño mide la fidelidad de la construcción.
+Fuente: (ISACA, 2018b, BAI03.03)
+[Ttulo3] BAI03.04 — Adquirir los componentes de la solución
+Descripción oficial: Adquirir los componentes de la solución basados en el plan de adquisiciones, de acuerdo con los requisitos y diseños detallados, los principios y estándares de arquitectura, y los procedimientos generales de adquisición y contratos de la compañía, requisitos de QA y estándares de aprobación. Asegurarse de que el proveedor identifica y aborda todos los requisitos legales y contractuales.
+Nivel de capacidad: 2
+Aclaración: Esta práctica no tiene actividades asignadas a Nivel 2 en ISACA (2018b, BAI03.04). Se incluye en el alcance para completitud del objetivo, dejando constancia de que su desarrollo pleno corresponde a niveles superiores, fuera del alcance de este documento.
+Narrativa: DHM desarrolla software propio y adquiere herramientas de apoyo, cuyo licenciamiento consta en el Anexo C (Universidad Nacional de Ingeniería, 2026, Anexo C). Por ello, la adquisición de componentes de solución tiene una incidencia acotada en el alcance del proyecto. Cualquier adquisición futura requeriría la aprobación del Gerente General y, si excede el presupuesto autorizado de USD 5,520, la elevación de la solicitud por el CDC (Universidad Nacional de Ingeniería, 2026, Anexos B y C). Precoro Enterprise, presupuestada en el Anexo C, es una herramienta de gestión de compras que podría respaldar ese trámite. La práctica se mantiene en el alcance por completitud, sin metas de capacidad propias en este documento.
+Fuente: (ISACA, 2018b, BAI03.04)
+[Ttulo3] BAI03.05 — Construir soluciones
+Descripción oficial: Instalar y configurar soluciones e integrarlas con las actividades del proceso de negocio. Durante la configuración e integración del hardware y el software de infraestructura, implementar medidas de control, seguridad, privacidad y auditabilidad para proteger los recursos y asegurar la disponibilidad y la integridad de los datos. Actualizar el catálogo de productos o servicios para reflejar las nuevas soluciones.
+Nivel de capacidad: 2
+Tabla 10
+Actividades de Nivel 2 de BAI03.05
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Integrar y configurar los componentes de negocio y de TI y los repositorios de información según las especificaciones detalladas y los requisitos de calidad, considerando a usuarios y dueños de proceso | Componentes documentados; especificaciones detalladas | Componentes de la solución integrados y configurados | Brecha entre el esfuerzo de desarrollo estimado y el final | Líder Técnico |
+| Completar y actualizar los manuales de proceso de negocio y operativos con las personalizaciones o condiciones especiales de la implementación | Solución integrada | Manuales actualizados | Número de problemas de software comunicados | Líder Técnico; Jefe de Ventas y Representante de Logística |
+| Considerar los requisitos de control de la información en la integración e incluir controles automáticos para un procesamiento preciso, completo, oportuno, autorizado y auditable | Requisitos de control de la información | Controles automáticos implementados | Número de errores revisados | Líder Técnico; verificación de Responsable PQA |
+<<END TABLE>>
+Nota. Se presentan las tres primeras actividades de la práctica, asignadas a Nivel 2 según la disposición de ISACA (2018b, BAI03.05). Fuente: Elaboración propia con base en ISACA (2018b, BAI03.05); Universidad Nacional de Ingeniería (2026, Anexos B y G).
+Narrativa: La integración de la solución en DHM se apoya en contenedores Docker y en la auditoría inmutable del sistema (IP, deltas y usuario), que aporta auditabilidad a los controles automáticos (Universidad Nacional de Ingeniería, 2026, FODA, F2). A Nivel 2, el Líder Técnico integrará y configurará los componentes según las especificaciones aprobadas, con actualización de los manuales de proceso para Ventas y Logística cuando cambie su operación. La Responsable PQA verificará que los controles de exactitud e integridad estén implementados. Las métricas de brecha de esfuerzo y de problemas comunicados permiten seguir la calidad del resultado.
+Fuente: (ISACA, 2018b, BAI03.05)
+[Ttulo3] BAI03.06 — Realizar el aseguramiento de calidad (QA)
+Descripción oficial: Desarrollar, aprovisionar y ejecutar un plan de aseguramiento de la calidad (QA) que esté alineado con el sistema de gestión de la calidad (QMS) para obtener la calidad especificada en la definición de los requisitos y en las políticas y procedimientos de calidad de la empresa.
+Nivel de capacidad: 2
+Aclaración: Esta práctica no tiene actividades asignadas a Nivel 2 en ISACA (2018b, BAI03.06). Se incluye en el alcance para completitud del objetivo, dejando constancia de que su desarrollo pleno corresponde a niveles superiores, fuera del alcance de este documento.
+Narrativa: ISACA (2018b) asigna las actividades de esta práctica a niveles superiores; no obstante, DHM prevé cubrir su intención mediante el procedimiento de control de calidad de la Responsable PQA, aún por elaborar, y las puertas de calidad de SonarQube Developer Edition, presupuestada en el Anexo C (Universidad Nacional de Ingeniería, 2026, Anexo C). Los informes de calidad, definidos en el flujo de información del componente 4, llegan a la Responsable PQA. El cumplimiento del Nivel 2 de BAI03 se evidencia a través de BAI03.07 y BAI03.08, que sí cuentan con actividades de ese nivel. Esta práctica se documenta aquí solo como referencia de completitud.
+Fuente: (ISACA, 2018b, BAI03.06)
+[Ttulo3] BAI03.07 — Preparar las pruebas de la solución
+Descripción oficial: Establecer un plan de pruebas y los entornos/ambientes necesarios para probar los componentes individuales e integrados de la solución. Incluir los procesos de negocio y los servicios de soporte, aplicaciones e infraestructura.
+Nivel de capacidad: 2
+Tabla 11
+Actividades de Nivel 2 de BAI03.07
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Crear un plan integrado de prácticas y pruebas que permita construir entornos de prueba y simulación adecuados y verificar los controles | Diseño detallado; criterios de aceptación | Plan de pruebas | Usuarios del negocio involucrados en la construcción del plan de pruebas | Responsable PQA |
+| Crear un entorno de pruebas que apoye todo el alcance de la solución y refleje lo más fielmente posible las condiciones reales | Plan de pruebas | Entorno de pruebas operativo | Número y solidez de los casos de uso creados para las pruebas | Líder Técnico |
+<<END TABLE>>
+Nota. Se presentan las dos primeras actividades de la práctica, asignadas a Nivel 2 según la disposición de ISACA (2018b, BAI03.07). Fuente: Elaboración propia con base en ISACA (2018b, BAI03.07); Universidad Nacional de Ingeniería (2026, Anexos B y G).
+Narrativa: DHM cuenta con pruebas unitarias en pytest y cobertura estimada igual o superior al 70 % (Universidad Nacional de Ingeniería, 2026, Fase 1), pero sin un plan de pruebas por sprint. A Nivel 2, la Responsable PQA elaborará el plan a partir del diseño detallado y de los criterios de aceptación, con la participación del Jefe de Ventas y del Representante de Logística para definir los casos representativos. El Líder Técnico dispondrá el entorno de pruebas con contenedores Docker, aislado de producción. La cobertura mínima de 70 % del requisito no funcional del sistema se incorpora como criterio del plan.
+Fuente: (ISACA, 2018b, BAI03.07)
+[Ttulo3] BAI03.08 — Ejecutar las pruebas de la solución
+Descripción oficial: Durante el desarrollo, ejecutar pruebas continuamente (incluidas pruebas de control), de acuerdo con el plan de pruebas definido y las prácticas de desarrollo en el entorno apropiado. Incluir a los dueños de los procesos de negocio y a los usuarios finales en el equipo de pruebas. Identificar, registrar y priorizar los errores y problemas que se identificaron durante las pruebas.
+Nivel de capacidad: 2
+Tabla 12
+Actividades de Nivel 2 de BAI03.08
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Llevar a cabo las pruebas de la solución y sus componentes conforme al plan, con probadores independientes, dueños de proceso y usuarios finales, solo en entornos de prueba y desarrollo | Plan de pruebas | Resultados de pruebas | Errores encontrados durante la prueba | Responsable PQA |
+| Usar instrucciones de prueba claramente definidas, con equilibrio entre pruebas automatizadas e interactivas del usuario | Procedimientos de prueba | Casos de prueba ejecutados | Cobertura de pruebas (meta ≥ 70 %) | Responsable PQA; Líder Técnico |
+| Realizar todas las pruebas conforme al plan, incluida la integración de procesos de negocio y componentes de TI y los requisitos no funcionales | Plan de pruebas; requisitos no funcionales | Informe de pruebas de integración y no funcionales | Tiempo y esfuerzo para completar las pruebas | Responsable PQA |
+| Identificar, registrar y clasificar los errores, repetir las pruebas hasta resolver los significativos y mantener pistas de auditoría de los resultados | Resultados de pruebas | Registro de defectos clasificados y pistas de auditoría de las pruebas | Defectos detectados antes de producción | Responsable PQA; Líder Técnico (corrección) |
+| Registrar los resultados de las pruebas y comunicarlos a las partes interesadas conforme al plan | Registro de defectos y resultados | Comunicación de los resultados de las pruebas | Cumplimiento de la Definition of Done por sprint | Responsable PQA |
+<<END TABLE>>
+Nota. Se presentan las cinco actividades de la práctica, todas asignadas a Nivel 2 según la disposición de ISACA (2018b, BAI03.08). Fuente: Elaboración propia con base en ISACA (2018b, BAI03.08); Universidad Nacional de Ingeniería (2026, Anexos B y G).
+Narrativa: La ejecución de pruebas es la práctica donde DHM tiene mayor ventaja: el Líder Técnico registra conocimiento de pruebas de 5 sobre 5 y la Responsable PQA de 4 sobre 5 (Universidad Nacional de Ingeniería, 2026, Anexo G). A Nivel 2, la Responsable PQA conducirá las pruebas de forma independiente del equipo de construcción, incluirá al Jefe de Ventas y al Representante de Logística en la aceptación, y registrará los defectos clasificados en Jira. Los resultados y la cobertura se comunicarán al CDC. La Definition of Done se verifica al cierre de cada sprint, sirviendo como criterio de aceptación de la práctica.
+Fuente: (ISACA, 2018b, BAI03.08)
+[Ttulo3] BAI03.09 — Gestionar los cambios a los requisitos
+Descripción oficial: Hacer seguimiento al estado de requisitos individuales (incluidos todos los requisitos rechazados) durante el ciclo de vida del proyecto. Gestionar la aprobación de cambios a los requisitos.
+Nivel de capacidad: 2
+Aclaración: Esta práctica no tiene actividades asignadas a Nivel 2 en ISACA (2018b, BAI03.09). Se incluye en el alcance para completitud del objetivo, dejando constancia de que su desarrollo pleno corresponde a niveles superiores, fuera del alcance de este documento.
+Narrativa: El Anexo F establece la política de gestión de configuración y control de cambios de DHM, y Jira permite registrar las peticiones de cambio de los requisitos (Universidad Nacional de Ingeniería, 2026, Anexos C y F). Ambos elementos sustentan la trazabilidad mínima que el Nivel 2 de BAI03 demanda en BAI03.03, donde el seguimiento de peticiones de cambio sí cuenta con actividades. La evaluación formal de impacto, la clasificación y la priorización de los cambios, propias de esta práctica, no se desarrollan en este documento. Se mantiene la práctica en el alcance por completitud, sin metas de capacidad adicionales.
+Fuente: (ISACA, 2018b, BAI03.09)
+[Ttulo3] BAI03.10 — Mantener las soluciones
+Descripción oficial: Desarrollar y ejecutar un plan para mantener los componentes de la solución y la infraestructura. Incluir revisiones periódicas frente a las necesidades del negocio y los requisitos operativos.
+Nivel de capacidad: 2
+Tabla 13
+Actividades de Nivel 2 de BAI03.10
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Desarrollar y ejecutar un plan para mantener los componentes de la solución, con revisiones periódicas frente a las necesidades del negocio y los requisitos operativos: parches, actualizaciones, riesgo, privacidad, vulnerabilidades y seguridad | Solicitudes de mantenimiento; informes de SonarQube | Plan de mantenimiento; componentes y documentación actualizados | Demandas de mantenimiento no satisfechas; duración de las demandas satisfechas | Líder Técnico |
+<<END TABLE>>
+Nota. Se presenta la única actividad de la práctica asignada a Nivel 2 según la disposición de ISACA (2018b, BAI03.10). Fuente: Elaboración propia con base en ISACA (2018b, BAI03.10); Universidad Nacional de Ingeniería (2026, Anexos B y G).
+Narrativa: El sistema de DHM ya está en operación, por lo que el mantenimiento correctivo y evolutivo es continuo, pero carece de plan. A Nivel 2, el Líder Técnico elaborará un plan de mantenimiento que incluya parches, actualizaciones de dependencias y revisión de vulnerabilidades reportadas por SonarQube Developer Edition, con revisión periódica frente a las necesidades del negocio expresadas por Ventas y Logística. Las solicitudes se registrarán en Jira y las demandas no satisfechas se informarán al CDC. Uptime Kuma, herramienta en uso, aporta datos de disponibilidad para priorizar el mantenimiento.
+Fuente: (ISACA, 2018b, BAI03.10)
+[Ttulo3] BAI03.11 — Definir productos y servicios de TI y mantener el portafolio de servicios
+Descripción oficial: Definir y acordar opciones nuevas o modificadas de productos o servicios de TI y del nivel de servicio. Documentar las definiciones de productos y servicios nuevas o modificadas y las opciones de nivel de servicio que se actualizarán en el portafolio de productos y servicios.
+Nivel de capacidad: 2
+Aclaración: Esta práctica no tiene actividades asignadas a Nivel 2 en ISACA (2018b, BAI03.11). Se incluye en el alcance para completitud del objetivo, dejando constancia de que su desarrollo pleno corresponde a niveles superiores, fuera del alcance de este documento.
+Narrativa: Esta práctica exige definir productos y servicios de TI, con opciones de nivel de servicio, y mantener un portafolio actualizado, actividad que ISACA (2018b) ubica en niveles superiores. En el caso DHM, el único acuerdo de nivel de servicio documentado es el suscrito con el proveedor de hosting (Universidad Nacional de Ingeniería, 2026, Anexo D). La definición formal de un portafolio de servicios de TI, con opciones de nivel de servicio propias, no se aborda en este documento. La práctica se incluye en el alcance para completitud del objetivo, dejando constancia de que su desarrollo pleno excede el Nivel 2 aquí adoptado.
+Fuente: (ISACA, 2018b, BAI03.11)
+[Ttulo3] BAI03.12 — Diseñar soluciones conforme a la metodología de desarrollo definida
+Descripción oficial: Diseñar, desarrollar e implementar soluciones con la metodología de desarrollo adecuada (es decir, en cascada, Agile o bimodal I&T), conforme a la estrategia y requisitos globales.
+Nivel de capacidad: 2
+Aclaración: Esta práctica no tiene actividades asignadas a Nivel 2 en ISACA (2018b, BAI03.12). Se incluye en el alcance para completitud del objetivo, dejando constancia de que su desarrollo pleno corresponde a niveles superiores, fuera del alcance de este documento.
+Narrativa: DHM adopta un reparto híbrido de 50 % ágil, 10 % DevOps y 40 % tradicional, que constituye el contexto de activación del objetivo (ISACA, 2018c; Universidad Nacional de Ingeniería, 2026). La selección de la metodología por iniciativa se apoya en Scrum con sprints de dos semanas, según la técnica metodológica propuesta en el documento CMMI del equipo (Universidad Nacional de Ingeniería, 2026). ISACA (2018b) no asigna actividades de Nivel 2 a la evaluación formal del impacto de la metodología y a la estructuración de equipos duales. La práctica se mantiene en el alcance por completitud.
+Fuente: (ISACA, 2018b, BAI03.12)
+[Ttulo3] Métricas de Nivel 2 del objetivo BAI03
+Tabla 14
+Métricas de Nivel 2 del objetivo BAI03
+<<TABLE>>
+| Métrica | Meta | Frecuencia | Fuente del dato | Responsable |
+| Número de diseños revisados y aprobados por sprint | Todos los diseños de las historias del sprint | Por sprint | Jira y repositorio documental | Líder Técnico |
+| Porcentaje de historias de usuario con criterios de aceptación documentados | 100 % | Por sprint | Jira | Responsable PQA |
+| Cobertura de pruebas | ≥ 70 % (RNF del sistema DHM) | Por sprint | pytest-cov y SonarQube | Responsable PQA |
+| Número de defectos detectados en pruebas antes de producción | Registro y seguimiento; sin meta numérica establecida | Por sprint | Registro de defectos en Jira | Responsable PQA |
+| Cumplimiento del Definition of Done por sprint | Verificación en cada sprint | Por sprint | Lista de verificación de la Definition of Done | Responsable PQA |
+<<END TABLE>>
+Nota. La meta de cobertura corresponde al requisito no funcional del sistema DHM; las demás métricas se registran sin metas numéricas adicionales. Fuente: Elaboración propia con base en ISACA (2018b, BAI03) y Universidad Nacional de Ingeniería, 2026, Fase 1 y Anexo G.
+[Ttulo2] Síntesis del objetivo BAI03
+BAI03 conecta la activación del Factor de Diseño 9 con un proceso de construcción de soluciones documentado, con criterios de aceptación, pruebas independientes y control de calidad, hasta el Nivel 2 (Gestionado). Siete de sus doce prácticas cuentan con actividades de Nivel 2 y las cinco restantes se incluyen por completitud. La intervención se apoya en roles del Anexo B, herramientas presupuestadas en el Anexo C y competencias del Anexo G. Las métricas de cobertura, criterios de aceptación y Definition of Done permiten verificar el logro.

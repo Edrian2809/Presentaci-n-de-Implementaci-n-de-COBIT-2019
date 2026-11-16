@@ -1,0 +1,14 @@
+[tool.pyright]
+extraPaths = [
+    "C:/Users/GMGIN/AppData/Local/Programs/Python/Python312/Lib/site-packages",
+    "C:/Users/GMGIN/AppData/Roaming/Python/Python312/site-packages"
+]
+reportMissingImports = false
+
+[tool.pyrefly]
+python_path = "C:/Users/GMGIN/AppData/Local/Programs/Python/Python312/python.exe"
+search_paths = [
+    "C:/Users/GMGIN/AppData/Local/Programs/Python/Python312/Lib/site-packages",
+    "C:/Users/GMGIN/AppData/Roaming/Python/Python312/site-packages"
+]
+

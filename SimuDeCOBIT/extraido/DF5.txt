@@ -1,0 +1,139 @@
+[Heading1] OBJETIVO 5 — APO13 — Gestionar la Seguridad
+Factor de diseño: Factores de Diseño 3 y 5 — Perfil de Riesgo y Panorama de Amenazas
+[Heading2] Justificación de activación
+El perfil de riesgo de DHM (Factor de Diseño 3) identificó cinco categorías críticas: incidentes de infraestructura, ataques lógicos, programas y proyectos, habilidades del personal de TI, e información y datos. En la evaluación de factores de diseño del caso, APO13 alcanza una importancia relativa de +85, el valor más alto obtenido por cualquier objetivo, y el Factor de Diseño 5 (Panorama de Amenazas), con predominio de amenazas altas, refuerza esa prioridad (ISACA, 2018c). La conexión con las brechas de DHM es evidente: la empresa opera un sistema propio en Python, Django y PostgreSQL que concentra pedidos, inventario y cobranzas, con un equipo técnico pequeño (D2) y sin un sistema de gestión de seguridad de la información documentado. La pérdida de datos o una interrupción prolongada afectaría directamente la distribución diaria de huevos. APO13 busca mantener el impacto y la ocurrencia de incidentes de seguridad dentro del apetito de riesgo de la empresa (ISACA, 2018b, APO13). Se desarrolla desde el nivel actual 1 hasta el nivel objetivo 2 (Gestionado).
+[Heading2] Componente 1: Procesos
+[Heading3] 1. ¿Cuáles son los impulsores?
+El perfil de riesgo de DHM concentra amenazas sobre infraestructura, ataques lógicos, información y habilidades del personal técnico. APO13 responde con un sistema de gestión de seguridad de la información (SGSI) que establece alcance, trata riesgos y revisa su eficacia (ISACA, 2018b, APO13). Los impulsores son la dependencia del sistema propio para operar, la protección de datos de clientes y la necesidad de sostener la certificación CMMI.
+[Heading3] 2. ¿Dónde estamos ahora?
+Nivel de capacidad actual: 1. Existen controles informales: acceso a repositorios en GitLab, respaldos de PostgreSQL y monitoreo con Uptime Kuma, pero dependen del criterio de una persona. No hay alcance definido, política aprobada, inventario de riesgos de seguridad ni plan de tratamiento. Los incidentes se resuelven cuando aparecen, sin registro sistemático ni análisis posterior (ISACA, 2018b, APO13.01). La dependencia de una sola persona agrava la exposición.
+[Heading3] 3. ¿Dónde queremos estar?
+Nivel de capacidad objetivo: 2 (Gestionado). DHM tendría un alcance del SGSI definido, una política de seguridad aprobada, un plan de tratamiento de riesgos priorizado con responsables y fechas, y revisiones periódicas registradas. Los controles principales serían verificables, con evidencia en GitLab, SonarQube y Uptime Kuma, y el CDC recibiría un reporte de seguridad en sus sesiones (ISACA, 2018a; 2018b, APO13).
+[Heading3] 4. ¿Qué se necesita hacer?
+Definir el alcance del SGSI y sus exclusiones; redactar la política de seguridad; identificar los riesgos críticos de las cinco categorías del perfil; elaborar un plan de tratamiento con responsables y plazos; establecer un registro de incidentes; y programar revisiones periódicas del funcionamiento de los controles, con reporte mensual al CDC y seguimiento de las acciones pendientes (ISACA, 2018b, APO13).
+[Heading3] 5. ¿Cómo llegamos allí?
+Con un taller de riesgos dirigido por la Ing. Marcela Rivas, la redacción del alcance y la política con Luis Antonio Ramírez, la activación de escaneos de SonarQube sobre el código, la definición de respaldos verificables y un registro de incidentes en Jira. El CDC aprueba los documentos y da seguimiento a los avances en sus sesiones, quincenales al inicio y mensuales después (ISACA, 2018d, Fase 4).
+[Heading3] 6. ¿Llegamos?
+Se verifica que el alcance y la política estén aprobados, que el plan de tratamiento tenga avances medibles, que exista al menos un respaldo restaurado con éxito y que los incidentes queden registrados. Ana María Sandoval, como Responsable PQA, revisa objetivamente el proceso, documenta hallazgos y los presenta al CDC para su corrección (ISACA, 2018a; 2018d, Fase 6). Los resultados se archivan.
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+La seguridad se incorpora como punto fijo en la agenda mensual del CDC, con reporte de incidentes, vulnerabilidades abiertas y estado del plan de tratamiento. Cada incidente genera una lección aprendida registrada en Confluence y la política se revisa una vez al año, con patrocinio visible de Carlos Méndez para sostener la disciplina (ISACA, 2018d, Fase 7). Además se difunden los avances a todo el personal.
+[Heading2] Componente 2: Estructuras organizativas
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT asigna responsabilidades de seguridad a la dirección ejecutiva, la dirección de tecnología y un responsable de seguridad de la información (ISACA, 2018b, APO13). En DHM, sin una estructura clara, la seguridad queda en manos de una sola persona, lo que agrava el riesgo asociado a las habilidades del personal técnico.
+[Heading3] 2. ¿Dónde estamos ahora?
+Luis Antonio Ramírez administra de hecho servidores, accesos y respaldos, sin un rol formal de responsable de seguridad ni un suplente. Carlos Méndez conoce los riesgos de forma general pero no recibe reportes periódicos. Las funciones de seguridad no están escritas en ningún documento.
+[Heading3] 3. ¿Dónde queremos estar?
+Carlos Méndez como patrocinador del SGSI desde el CDC; Luis Antonio Ramírez como Responsable de Seguridad de la Información; Ana María Sandoval como revisora independiente de cumplimiento; y Roberto José Gutiérrez y José Francisco Pérez como responsables del comportamiento seguro de sus equipos (ISACA, 2018b, APO13).
+[Heading3] 4. ¿Qué se necesita hacer?
+Designar formalmente al Responsable de Seguridad de la Información y a un suplente, definir en una matriz RACI las responsabilidades de APO13.01 a APO13.03 y comunicar los roles al personal. Incorporar la seguridad como punto recurrente del CDC (ISACA, 2018b, APO13).
+[Heading3] 5. ¿Cómo llegamos allí?
+Mediante acta del CDC que designe roles y suplencia, con la matriz RACI publicada en Confluence. La Ing. Marcela Rivas orienta la definición y luego se transfiere la responsabilidad al equipo interno. La comunicación se hace en una reunión general breve (ISACA, 2018d, Fase 2).
+[Heading3] 6. ¿Llegamos?
+Existe acta de designación, la matriz RACI está publicada, el suplente puede ejecutar las tareas críticas y el CDC recibió al menos dos reportes de seguridad. Las personas consultadas saben a quién reportar un incidente y cómo hacerlo (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Revisar los roles cada seis meses, ensayar la suplencia con una tarea real y mantener al CDC informado de los cambios de personal que afecten accesos o responsabilidades, evitando que la seguridad dependa de una sola persona (ISACA, 2018d, Fase 7).
+[Heading2] Componente 3: Flujos y elementos de información
+[Heading3] 1. ¿Cuáles son los impulsores?
+APO13 produce y consume información clave: estrategia de seguridad, declaración del alcance, política del SGSI, plan de tratamiento de riesgos, casos de negocio de seguridad, informes de auditoría y registros de incidentes (ISACA, 2018b, APO13). Sin ellos, las decisiones de protección serían intuitivas y difíciles de demostrar.
+[Heading3] 2. ¿Dónde estamos ahora?
+La información de seguridad está dispersa: configuraciones en servidores, credenciales conocidas por pocas personas, resultados de escaneos sin archivar e incidentes recordados de memoria. No existe un documento que resuma qué se protege, contra qué amenazas y con qué controles.
+[Heading3] 3. ¿Dónde queremos estar?
+Declaración de alcance, política del SGSI, inventario de activos de información, registro de riesgos con plan de tratamiento, registro de incidentes e informe periódico de seguridad para el CDC. Todos con dueño, versión y ubicación en Confluence (ISACA, 2018b, APO13).
+[Heading3] 4. ¿Qué se necesita hacer?
+Definir las plantillas de cada documento, decidir qué datos alimentan el inventario de activos y el registro de riesgos, y acordar quién produce cada informe y con qué frecuencia. Relacionar cada riesgo con el activo afectado y el control correspondiente (ISACA, 2018b, APO13).
+[Heading3] 5. ¿Cómo llegamos allí?
+Crear el espacio de seguridad en Confluence, un proyecto de Jira para incidentes y hallazgos, y un informe mensual con datos de SonarQube y Uptime Kuma. Luis Antonio Ramírez elabora los documentos y Ana María Sandoval verifica su consistencia (ISACA, 2018d, Fase 4).
+[Heading3] 6. ¿Llegamos?
+Se comprueba que los documentos existen, están vigentes y son consistentes entre sí, que cada riesgo crítico tiene tratamiento asignado y que los incidentes del periodo figuran en el registro. Se contrasta una muestra de evidencias con los reportes (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Actualizar el inventario y el registro de riesgos cada trimestre o ante cambios significativos del sistema, controlar el acceso a los documentos sensibles y retirar información obsoleta, manteniendo un historial de versiones en Confluence para consulta del equipo (ISACA, 2018d, Fase 7).
+[Heading2] Componente 4: Personas, habilidades y competencias
+[Heading3] 1. ¿Cuáles son los impulsores?
+La seguridad de la información exige competencias técnicas y de estrategia, identificadas por COBIT mediante SFIA (SCTY) y el marco e-CF (D.1) (ISACA, 2018b, APO13; SFIA Foundation, 2015). El riesgo de habilidades del personal de TI, una de las cinco categorías críticas de DHM, hace especialmente relevante este componente.
+[Heading3] 2. ¿Dónde estamos ahora?
+Luis Antonio Ramírez posee sólidas competencias técnicas, pero no ha recibido formación formal en gestión de seguridad de la información. No hay suplente con capacidades equivalentes, y el resto del personal desconoce prácticas básicas de protección de credenciales, correos sospechosos o manejo de datos de clientes.
+[Heading3] 3. ¿Dónde queremos estar?
+Un Responsable de Seguridad y su suplente con competencias verificadas en gestión de riesgos y controles; personal técnico con prácticas seguras de desarrollo; y todo el personal con conciencia básica de seguridad. Las competencias se registrarían en la matriz de habilidades (ISACA, 2018b, APO13; Tobón, 2013).
+[Heading3] 4. ¿Qué se necesita hacer?
+Evaluar competencias frente a SCTY, capacitar al Responsable y a su suplente en gestión de riesgos y respuesta a incidentes, y organizar una sesión de concienciación para los 38 empleados, con énfasis en ventas y conducción, donde el riesgo de error humano es mayor (Tobón, 2013).
+[Heading3] 5. ¿Cómo llegamos allí?
+Con capacitación de ocho horas para el equipo técnico y una sesión de una hora para el resto del personal, ambas apoyadas por la Ing. Marcela Rivas. Se usan ejemplos reales de DHM, como accesos compartidos o respaldos, para que el aprendizaje sea aplicable (ISACA, 2018d, Fase 4).
+[Heading3] 6. ¿Llegamos?
+Se comprueba que el suplente ejecutó una restauración de respaldo y una revisión de accesos sin ayuda, que asistió la totalidad del personal a la sesión y que una evaluación breve muestra comprensión de las reglas básicas (ISACA, 2018d, Fase 6; Tobón, 2013).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Repetir la sesión de concienciación cada año y en la inducción de nuevo personal, simular periódicamente un caso de correo sospechoso y actualizar las competencias del equipo técnico con cursos gratuitos o de bajo costo, registrando el avance (ISACA, 2018d, Fase 7).
+[Heading2] Componente 5: Cultura, ética y comportamiento
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT plantea una cultura de concienciación que influya positivamente en el comportamiento seguro cotidiano, con campeones de seguridad y comunicación proactiva (ISACA, 2018b, APO13). En DHM, la resistencia al cambio (D4) podría llevar al personal a ver las medidas de seguridad como obstáculos.
+[Heading3] 2. ¿Dónde estamos ahora?
+La confianza informal domina: las contraseñas se comparten por comodidad y los accesos se conceden sin registro. Vendedores y conductores usan dispositivos y aplicaciones sin lineamientos, y la seguridad se percibe como asunto exclusivo del área técnica.
+[Heading3] 3. ¿Dónde queremos estar?
+Una cultura donde el personal comprende por qué se protege la información, cumple reglas básicas sin resistencia y reporta incidentes sin temor a represalias. Los líderes dan el ejemplo y hay campeones de seguridad en cada área (ISACA, 2018b, APO13; Kotter, 1996).
+[Heading3] 4. ¿Qué se necesita hacer?
+Explicar con ejemplos cercanos qué se protege y por qué, designar un campeón en ventas y otro en logística, establecer un canal sencillo para reportar incidentes y reconocer públicamente los reportes oportunos. Vincular las reglas con el cuidado de los clientes y del empleo (Hiatt, 2006).
+[Heading3] 5. ¿Cómo llegamos allí?
+Carlos Méndez comunica el propósito y cumple primero las reglas; Roberto José Gutiérrez y José Francisco Pérez actúan como campeones o designan a uno. Se usan mensajes breves y recordatorios visibles, siguiendo conciencia y deseo del modelo ADKAR (Hiatt, 2006; Kotter, 1996).
+[Heading3] 6. ¿Llegamos?
+Se mide cuántos incidentes o sospechas son reportados voluntariamente, cuántas cuentas compartidas se eliminaron y cómo responde el personal a preguntas básicas. Conversaciones breves con vendedores y conductores revelan si perciben las reglas como razonables (Hiatt, 2006).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Compartir mensualmente un mensaje breve de seguridad, reconocer los reportes útiles, tratar los errores como aprendizaje y no como falta, y mantener a los campeones informados de las novedades del SGSI (Kotter, 1996; ISACA, 2018d, Fase 7).
+[Heading2] Componente 6: Políticas y procedimientos
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT recomienda una política de seguridad de la información y privacidad que establezca directrices de comportamiento para proteger información, sistemas e infraestructura, sincronizada con la política de riesgos (ISACA, 2018b, APO13). Para DHM es el documento base del SGSI y evidencia exigible para la mejora de procesos.
+[Heading3] 2. ¿Dónde estamos ahora?
+No existe política de seguridad aprobada ni procedimientos escritos de gestión de accesos, respaldos o respuesta a incidentes. Las prácticas actuales las conoce el Líder Técnico, y cualquier ausencia suya dejaría a la empresa sin instrucciones claras sobre qué hacer.
+[Heading3] 3. ¿Dónde queremos estar?
+Una Política de Seguridad de la Información aprobada por el Gerente General y tres procedimientos breves: gestión de accesos, respaldo y restauración, y respuesta a incidentes. Todos publicados en Confluence, comunicados al personal y con responsables definidos para su cumplimiento (ISACA, 2018b, APO13).
+[Heading3] 4. ¿Qué se necesita hacer?
+Redactar la política y los procedimientos con lenguaje claro, definir las reglas mínimas para el personal, validarlos con Ana María Sandoval y los líderes de área y aprobarlos formalmente en el CDC, con acta y fecha de vigencia (ISACA, 2018b, APO13).
+[Heading3] 5. ¿Cómo llegamos allí?
+La Ing. Marcela Rivas aporta plantillas y revisa la redacción. Luis Antonio Ramírez detalla los pasos técnicos. Los documentos se publican en Confluence, se presentan a todo el personal y las reglas esenciales se incluyen en la inducción de nuevos empleados (ISACA, 2018d, Fase 3).
+[Heading3] 6. ¿Llegamos?
+Se verifica que la política esté firmada, publicada y conocida; que los procedimientos se hayan aplicado en al menos un caso real o simulado; y que las excepciones queden registradas. Ana María Sandoval reporta los incumplimientos al CDC (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Revisar la política y los procedimientos una vez al año o tras un incidente relevante, incorporar las lecciones aprendidas y recordar periódicamente las reglas al personal mediante mensajes cortos, evitando que los documentos queden archivados sin uso (ISACA, 2018d, Fase 7).
+[Heading2] Componente 7: Servicios, infraestructura y aplicaciones
+[Heading3] 1. ¿Cuáles son los impulsores?
+COBIT señala herramientas de gestión de la configuración, servicios de concienciación y evaluaciones de seguridad de terceros como soporte de APO13 (ISACA, 2018b, APO13). DHM cuenta con GitLab, SonarQube, Docker y Uptime Kuma, herramientas que pueden convertirse en controles verificables sin gasto adicional significativo.
+[Heading3] 2. ¿Dónde estamos ahora?
+GitLab controla versiones, pero sin revisión periódica de accesos. SonarQube está previsto en el presupuesto con USD 1,500, aunque su uso sistemático aún no está definido. Uptime Kuma monitorea disponibilidad, pero sin alertas ni procedimientos asociados, y los respaldos de PostgreSQL no se prueban de forma regular.
+[Heading3] 3. ¿Dónde queremos estar?
+GitLab con permisos por rol y revisión trimestral de accesos; SonarQube ejecutando análisis en cada cambio relevante; Docker con imágenes controladas; Uptime Kuma con alertas dirigidas al responsable; y respaldos de PostgreSQL restaurados periódicamente en un entorno de prueba (ISACA, 2018b, APO13).
+[Heading3] 4. ¿Qué se necesita hacer?
+Definir permisos por rol en GitLab, configurar reglas de calidad y seguridad en SonarQube, documentar las imágenes Docker autorizadas, configurar alertas en Uptime Kuma y programar respaldos con pruebas de restauración mensuales, asignando un responsable a cada control (ISACA, 2018b, APO13).
+[Heading3] 5. ¿Cómo llegamos allí?
+Luis Antonio Ramírez implementa los controles por etapas, comenzando por respaldos y accesos, que reducen los riesgos de mayor impacto. La Ing. Marcela Rivas orienta las reglas iniciales de SonarQube. Los resultados se publican en un reporte mensual para el CDC (ISACA, 2018d, Fase 4).
+[Heading3] 6. ¿Llegamos?
+Se comprueba que los permisos coinciden con los roles, que los análisis de SonarQube se ejecutan y sus hallazgos críticos se atienden, que hay alertas activas y que se restauró un respaldo con éxito. Ana María Sandoval revisa las evidencias (ISACA, 2018d, Fase 6).
+[Heading3] 7. ¿Cómo mantenemos el impulso?
+Mantener un calendario de revisión de accesos, actualizar dependencias y contenedores, revisar los hallazgos abiertos en cada sesión del CDC y evaluar cada año si las herramientas siguen cubriendo el perfil de amenazas de DHM y su presupuesto (ISACA, 2018d, Fase 7).
+[Heading2] PRÁCTICAS DE GESTIÓN DEL OBJETIVO APO13 — NIVEL 2
+[Heading3] APO13.01 — Establecer y mantener un sistema de gestión de seguridad de la información (SGSI)
+Descripción oficial: Establecer y mantener un sistema de gestión de seguridad de la información (SGSI) que proporcione un enfoque estándar, formal y continuo para la gestión de la seguridad de la información, mediante la habilitación de tecnología segura y procesos de negocio alineados con los requisitos del negocio.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Definir el alcance y los límites del SGSI en términos de organización, ubicación, activos y tecnología, con justificación de las exclusiones | Estrategia de seguridad de la empresa (fuera de COBIT); inventario de activos | Declaración del alcance del SGSI (APO01.05; DSS06.03) | Nivel de satisfacción de las partes interesadas con el plan de seguridad | Luis Antonio Ramírez (Líder Técnico); aprueba Carlos Méndez López (Gerente General) |
+| Redactar la política del SGSI, comunicar la estrategia y definir los roles y responsabilidades de seguridad | Declaración del alcance; perfil de riesgo de DHM | Política de SGSI (interna) | Nivel de satisfacción con el plan de seguridad en toda la empresa | Carlos Méndez López (Gerente General) aprueba; Luis Antonio Ramírez (Líder Técnico) redacta; consulta Ana María Sandoval (PQA) |
+<<END TABLE>>
+El punto de partida es delimitar qué protege el SGSI. Luis Antonio Ramírez elabora la declaración de alcance, que incluye el sistema propio en Django y PostgreSQL, el repositorio GitLab, los servidores y los datos de clientes, y justifica lo que queda fuera. Con ese alcance se redacta una política breve alineada con las cinco categorías críticas del perfil de riesgo. Carlos Méndez la aprueba en el CDC y se comunica al personal junto con los roles de seguridad. Ana María Sandoval revisa que el documento sea coherente con lo que efectivamente se hace. Así, la seguridad pasa de prácticas informales a un compromiso formal de la dirección (ISACA, 2018b, APO13.01).
+Fuente: ISACA (2018b, APO13.01).
+[Heading3] APO13.02 — Definir y gestionar un plan de tratamiento de riesgos de seguridad de la información y privacidad
+Descripción oficial: Mantener un plan de seguridad de la información que describa cómo se debe manejar el riesgo de seguridad de la información y cómo se debe alinear con la estrategia y la arquitectura de la empresa. Asegurar que las recomendaciones para implementar mejoras a la seguridad se basen en casos de negocio aprobados, implementados como una parte integral del desarrollo de servicios y soluciones, y que operen como una parte integral de la operación del negocio.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Elaborar un plan de tratamiento que priorice los riesgos críticos, con controles, recursos, responsables y fechas | Brechas y cambios requeridos (APO02.04); línea base de arquitectura (APO03.02); propuestas de proyecto para reducir el riesgo (APO12.05) | Plan de tratamiento del riesgo de seguridad de la información | Porcentaje de simulaciones de escenarios de riesgo de seguridad exitosas | Luis Antonio Ramírez (Líder Técnico); aprueba Carlos Méndez López (Gerente General) |
+| Presentar al CDC los casos de negocio de las mejoras que requieran inversión e impartir la sesión de concienciación al personal | Plan de tratamiento; presupuesto de I&T | Casos de negocio de seguridad de la información (APO05.02) | Número de empleados que completaron la formación en concienciación | Luis Antonio Ramírez (Líder Técnico); participan Roberto José Gutiérrez (Jefe de Ventas) y José Francisco Pérez (Logística) |
+<<END TABLE>>
+El plan de tratamiento convierte el perfil de riesgo en acciones concretas. Luis Antonio Ramírez prioriza las amenazas de mayor impacto, como pérdida de datos, indisponibilidad del sistema y accesos indebidos, y define para cada una un control, un responsable y una fecha. Las acciones que requieran gasto se justifican en un caso de negocio simple y se vinculan con el presupuesto de I&T gestionado en APO06. Carlos Méndez aprueba el plan en el CDC. Se agrega una sesión de concienciación para los 38 empleados. Esta práctica se aborda en su forma mínima: pocas acciones, bien elegidas y con seguimiento, mejor que un plan extenso sin ejecución (ISACA, 2018b, APO13.02).
+Fuente: ISACA (2018b, APO13.02).
+[Heading3] APO13.03 — Monitorizar y revisar el sistema de gestión de seguridad de la información (SGSI)
+Descripción oficial: Mantener y comunicar periódicamente la necesidad y los beneficios de una mejora continua de seguridad de la información. Recopilar y analizar datos sobre el sistema de gestión de seguridad de la información (SGSI) y mejorar su efectividad. Corregir los incumplimientos para evitar la recurrencia.
+<<TABLE>>
+| Actividad | Entrada | Salida | Métrica | Responsable |
+| Revisar periódicamente el funcionamiento de los controles y el cumplimiento de la política, con base en incidentes y evidencias | Peticiones de servicio e incidentes clasificados y priorizados (DSS02.02); reportes de SonarQube y Uptime Kuma | Recomendaciones para la mejora del SGSI (interna) | Frecuencia de revisiones de seguridad programadas | Luis Antonio Ramírez (Líder Técnico); verifica Ana María Sandoval (PQA) |
+| Registrar los hallazgos y corregir los incumplimientos para evitar su repetición, informando al CDC | Recomendaciones de mejora; registro de incidentes | Informes de auditoría del SGSI (MEA02.01) | Número de incidentes causados por no adherirse al plan de seguridad | Ana María Sandoval (PQA) informa; decide Carlos Méndez López (Gerente General) |
+<<END TABLE>>
+Un SGSI que no se revisa pierde valor rápidamente. Cada mes, Luis Antonio Ramírez consolida incidentes, alertas de Uptime Kuma, hallazgos de SonarQube y resultados de pruebas de restauración, y Ana María Sandoval verifica de forma independiente si los controles se cumplen. Los incumplimientos se registran en Jira con una acción correctiva y una fecha, y el CDC recibe un resumen con las lecciones aprendidas. Para DHM esta práctica se implementa en su forma mínima, con una revisión mensual sencilla y un informe breve. Su valor está en la regularidad, que permite corregir a tiempo y demostrar mejora ante la dirección (ISACA, 2018b, APO13.03).
+Fuente: ISACA (2018b, APO13.03).
+[Heading2] Síntesis del objetivo APO13
+APO13 es el objetivo de mayor prioridad para DHM y lo lleva de controles informales (nivel 1) a un SGSI gestionado de nivel 2. Con un alcance definido, una política aprobada, un plan de tratamiento de riesgos con pocas acciones prioritarias y una revisión mensual con evidencia de GitLab, SonarQube, Docker y Uptime Kuma, la empresa protege el sistema que sostiene su operación. La designación de un suplente, la sesión de concienciación para los 38 empleados y el patrocinio del Gerente General atienden la dependencia de un equipo pequeño (D2) y la resistencia cultural (D4).

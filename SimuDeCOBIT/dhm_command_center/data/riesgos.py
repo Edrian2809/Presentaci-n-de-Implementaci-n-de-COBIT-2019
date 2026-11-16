@@ -1,0 +1,21 @@
+RIESGOS_MATRIZ = [
+    {"num": 6, "cat": "Incidentes de infraestructura", "imp": 5, "prob": 4, "punt": 20, "clas": "Muy Alto", "cobit": "APO13, DSS04", "desc": "PC de escritorio única actuando como servidor PostgreSQL sin tolerancia a fallos ni hardware redundante."},
+    {"num": 11, "cat": "Ataques lógicos (Ciberseguridad)", "imp": 5, "prob": 4, "punt": 20, "clas": "Muy Alto", "cobit": "APO13, DSS05", "desc": "Falta de firewall perimetral corporativo, BYOD en 20 vendedores y uso de WhatsApp para hojas de ruta."},
+    {"num": 2, "cat": "Programas y proyectos", "imp": 4, "prob": 4, "punt": 16, "clas": "Alto", "cobit": "BAI01, APO05", "desc": "Brecha B1: ausencia de planes de proyecto formales; iniciativas terminan sin trazabilidad de entregables."},
+    {"num": 4, "cat": "Habilidades del personal de TI", "imp": 4, "prob": 4, "punt": 16, "clas": "Alto", "cobit": "APO07, BAI08", "desc": "Único líder técnico (Luis Ramírez) sin suplente capacitado; sobrecarga extrema y riesgo de salida (D2)."},
+    {"num": 19, "cat": "Información y datos", "imp": 4, "prob": 4, "punt": 16, "clas": "Alto", "cobit": "APO14, BAI03", "desc": "Control de versiones manual previo, sin política de backups cifrados fuera de sede ni validación de restauración."},
+    {"num": 8, "cat": "Uso y adopción de software", "imp": 4, "prob": 3, "punt": 12, "clas": "Alto", "cobit": "BAI05, APO07", "desc": "Resistencia cultural al cambio (D4) en vendedores y conductores ante nuevas directrices digitales."},
+    {"num": 9, "cat": "Fallos de hardware", "imp": 4, "prob": 3, "punt": 12, "clas": "Alto", "cobit": "DSS01, BAI04", "desc": "Fallo físico de disco o placa madre en servidor local paraliza la facturación y despacho mayorista."},
+    {"num": 12, "cat": "Terceros y proveedores", "imp": 4, "prob": 3, "punt": 12, "clas": "Alto", "cobit": "APO10, MEA03", "desc": "Contratos sin SLAs formales ni penalizaciones con proveedores de hosting e internet (Brecha B9)."},
+    {"num": 13, "cat": "Incumplimiento normativo", "imp": 4, "prob": 3, "punt": 12, "clas": "Alto", "cobit": "MEA03, EDM01", "desc": "Modificaciones intempestivas en facturación electrónica DGI o requerimientos BPM del MinSa (Amenaza A1)."},
+    {"num": 16, "cat": "Desastres naturales", "imp": 5, "prob": 2, "punt": 10, "clas": "Normal", "cobit": "DSS04", "desc": "Vulnerabilidad sísmica o hidrometeorológica en Managua sin sitio de contingencia alterno."},
+    {"num": 1, "cat": "Inversiones y portafolio", "imp": 3, "prob": 3, "punt": 9, "clas": "Normal", "cobit": "APO05, APO06", "desc": "Presupuestos ad hoc sin seguimiento formal de rentabilidad ni valor ganado."},
+    {"num": 3, "cat": "Coste y supervisión", "imp": 3, "prob": 3, "punt": 9, "clas": "Normal", "cobit": "APO06", "desc": "Gasto operativo de tecnología no desagregado en contabilidad de costos."},
+    {"num": 17, "cat": "Cambio tecnológico", "imp": 3, "prob": 3, "punt": 9, "clas": "Normal", "cobit": "APO04", "desc": "Competidores mayoristas que puedan adoptar herramientas móviles más rápido."},
+    {"num": 7, "cat": "Acciones no autorizadas", "imp": 3, "prob": 2, "punt": 6, "clas": "Normal", "cobit": "DSS05", "desc": "Compartición informal de contraseñas entre personal de ventas."},
+    {"num": 10, "cat": "Fallos de software", "imp": 3, "prob": 2, "punt": 6, "clas": "Normal", "cobit": "BAI03", "desc": "Bugs en producción; mitigados parcialmente por pruebas unitarias existentes (cobertura 70%)."},
+    {"num": 5, "cat": "Arquitectura tecnológica", "imp": 2, "prob": 2, "punt": 4, "clas": "Bajo", "cobit": "APO03", "desc": "Clean Architecture bien estructurada en Django (Fortaleza F2)."},
+    {"num": 14, "cat": "Geopolítica", "imp": 2, "prob": 2, "punt": 4, "clas": "Bajo", "cobit": "EDM03", "desc": "Impacto indirecto en suministro de insumos avícolas."},
+    {"num": 18, "cat": "Medio ambiente", "imp": 2, "prob": 2, "punt": 4, "clas": "Bajo", "cobit": "DSS01", "desc": "Dependencia del suministro eléctrico de red en bodega central."},
+    {"num": 15, "cat": "Acción sindical", "imp": 1, "prob": 1, "punt": 1, "clas": "Bajo", "cobit": "APO07", "desc": "Sin organización sindical; clima laboral estable."}
+]
