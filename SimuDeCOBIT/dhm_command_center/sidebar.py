@@ -31,7 +31,7 @@ def render_sidebar():
             <b style="color:var(--primary);">EQUIPO DE TRABAJO:</b><br>
             • Anngelly Aleska Mejia<br>
             • Edrian Gabriel Espinoza<br>
-            • Eliza Sougey Aguirre<br><br>
+            <br>
             <b style="color:var(--primary);">TUTOR:</b><br>
             Msc. Roberto Carlos Alfaro<br><br>
             <b style="color:var(--primary);">ESTADO AUDITORÍA:</b> <span style="color:var(--success); text-shadow:0 0 8px rgba(0,255,102,0.8);">● ONLINE</span>
